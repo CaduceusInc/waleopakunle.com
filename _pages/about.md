@@ -4,9 +4,7 @@ toc: true
 title: About
 permalink: /about/
 ---
-{% if jekyll.environment == 'production' %}
-{% include google_analytics.html %}
-{% endif %}
+
 ## **Introduction**
 
 Hi there! In case it was not obvious enough from all the name tags, my name is Wale Opakunle.
