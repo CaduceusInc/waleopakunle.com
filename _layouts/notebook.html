@@ -1,5 +1,7 @@
 ---
 layout: post
 ---
-
+{% if jekyll.environment == 'production' %}
+{% include google-analytics.html %}
+{% endif %}
 {{ content }}

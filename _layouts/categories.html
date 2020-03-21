@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-
+{% if jekyll.environment == 'production' %}
+{% include google-analytics.html %}
+{% endif %}
 <div class="home">
 
 {{ content }}
