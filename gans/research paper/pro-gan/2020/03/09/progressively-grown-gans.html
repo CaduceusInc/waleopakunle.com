@@ -1,0 +1,269 @@
+<h2 id="a-summary-of-progressive-growing-of-gans-for-improved-quality-stability-and-variation-pro-gans-"><a href="https://arxiv.org/pdf/1710.10196v3.pdf">A Summary of Progressive Growing of GANs for improved quality, stability and variation (Pro-GANs) </a></h2>
+
+<p>Before we begin, I thought it would be more insightful (and interesting) if you could first see for yourself what the algorithm produced in this paper is capable of. If you’re interested, please check <a href="https://youtu.be/G06dEcZ-QTg">this youtube video out.</a></p>
+
+<h2 id="original-abstract">Original Abstract</h2>
+
+<p>We describe a new training methodology for generative adversarial networks. The key idea is to grow both the generator and discriminator progressively: starting from a low resolution, we add new layers that model increasingly fine details as training progresses. This both speeds the training up and greatly stabilizes it, allowing us to produce images of unprecedented quality, e.g., CELEBA images at 1024x1024. We also propose a simple way to increase the variation in generated images, and achieve a record inception score of 8:80 in unsupervised CIFAR10.</p>
+
+<p>Additionally, we describe several implementation details that are important for discouraging unhealthy competition between the generator and discriminator. Finally, we suggest a new metric for evaluating GAN results, both in terms of image quality and variation. As an additional contribution, we construct a higher-quality version of the CELEBA dataset.</p>
+
+<h2 id="my-summary">My Summary</h2>
+
+<p><strong>What did they contribute?</strong></p>
+
+<p>The NVIDIA team improved the stability, resolution (image quality) and variation of generated images. They also propose a new metric for evaluating generated images.</p>
+
+<p><strong>What older methods were they improving on?</strong></p>
+
+<ul>
+  <li><strong>Resolution (Image quality)</strong></li>
+</ul>
+
+<p>Durugkar et al. (2016) who use one generator and multiple discriminators concurrently.</p>
+
+<p>Ghosh et al. (2017) who use multiple generators and one discriminator.</p>
+
+<p>Wang et al. (2017), who use multiple discriminators that operate on different spatial resolutions.</p>
+
+<p>Denton et al., 2015; Huang et al., 2016; Zhang et al., 2017 define a generator and discriminator for each level of an image pyramid (Hierarchical GANs).</p>
+
+<ul>
+  <li><strong>Variation</strong></li>
+</ul>
+
+<p>Metz et al., 2016 who unroll the discriminator to regularize its updates.</p>
+
+<p>Zhao et al., 2017 who use a “repelling regularizer” that adds a new loss term to the generator, trying to encourage it to orthogonalize the feature vectors in a minibatch.</p>
+
+<p>Ghosh et al. (2017) who use multiple generators.</p>
+
+<ul>
+  <li><strong>Stability</strong></li>
+</ul>
+
+<p>Ioffe &amp; Szegedy, 2015; Salimans &amp; Kingma, 2016; Ba et al., 2016 and many others tend to use a variant of batch normalization in the generator and discriminator to discourage the escalation of unhealthy competition between the networks.</p>
+
+<p><strong>Issues with existing methods that necessitate this improvement</strong></p>
+
+<p><a href="https://www.statisticshowto.datasciencecentral.com/autoregressive-model/">Autoregressive models</a> have limited applicability because they are slow to evaluate and do not have latent representation although they produce sharp images. Variational autoencoders (VAEs) are easy to train but tend to produce blurry results despite recent advances and this is due to restrictions in the model architecture. GANs produce sharp images, but they do so in fairly small <strong>resolutions</strong> and somewhat limited variation. Also, training GANs remains notoriously unstable despite recent advances.</p>
+
+<p><strong>Which of the issues were they improving/solving?</strong></p>
+
+<p>Their primary contribution was to develop a training methodology for the training of GANs in which the resolution of the resulting output images could be progressively increased from an initial low-resolution images. They achieved this by progressively adding layers to the networks.</p>
+
+<p><strong>What did they propose to do differently and why?</strong></p>
+
+<ul>
+  <li>
+    <p><strong><span class="underline">Change:</span></strong> Use a single generator and discriminator network that are mirror images of each other and always grow in synchrony. All existing layers in both networks remain trainable throughout the training process.</p>
+
+    <p><strong><span class="underline">Reason:</span></strong> In previous approaches to training, the networks had to learn both the large-scale structure and fine scale detail of image distributions and this understandably took a long period of time.</p>
+
+    <p><strong><span class="underline">Result: </span></strong></p>
+  </li>
+</ul>
+
+<!-- end list -->
+
+<ol>
+  <li>
+    <p>Stabilized training sufficiently to enable the reliable synthesis of high resolution images.</p>
+  </li>
+  <li>
+    <p>Reduced training time (2 - 6 times faster depending on the output resolution).</p>
+  </li>
+</ol>
+
+<!-- end list -->
+
+<ul>
+  <li>
+    <p><strong><span class="underline">Change</span></strong>: Dynamically setting the weights and scale it at runtime rather than careful initialization</p>
+
+    <p><strong><span class="underline">Reason</span>:</strong> Previous methods normalize a gradient update by its estimated standard deviation, thus making the update independent of the scale of the parameter. As a result, if some parameters have a larger dynamic range than others, they will take longer to adjust.</p>
+
+    <p><strong><span class="underline">Result</span>:</strong> Dynamically setting the weights ensures that learning speed is the equal for all weights.</p>
+  </li>
+  <li>
+    <p><strong><span class="underline">Change:</span></strong> Normalize the feature vector in each pixel to unit length in the generator after each convolutional layer.</p>
+
+    <p><strong><span class="underline">Reason:</span></strong> To disallow the scenario where the magnitudes in the generator and discriminator spiral out of control as a result of competition.</p>
+
+    <p><strong><span class="underline">Result:</span></strong> prevents the escalation of signal magnitudes very effectively when needed.</p>
+  </li>
+  <li>
+    <p><strong><span class="underline">Change:</span></strong> Considering the multiscale statistical similarity between distributions of local image patches drawn from Laplacian pyramid representations of generated and target images, starting at a low-pass resolution of 16 x 16 pixels.</p>
+
+    <p><strong><span class="underline">Reason:</span></strong> Previous methods of evaluating generative performance work reliably in finding large scale mode collapse, but fail to react well to smaller effects such as loss of variation in colors and textures. They also do not directly assess image quality in terms of similarity to the training set.</p>
+
+    <p><strong><span class="underline">Result:</span></strong> A new approach for evaluating generated images based on a combination of older methods, including sampling from a Laplacian pyramid and sliced Wasserstein distance (SWD) for estimating statistical similarities. A smaller SWD at a given Laplacian layer indicates that training and generated image samples appear similar in both appearance and variation at the pyramids spatial resolution.</p>
+  </li>
+  <li>
+    <p><strong><span class="underline">Change:</span></strong> Use minibatch standard variation to increase variation.</p>
+
+    <p><strong><span class="underline">Reason:</span></strong> GANs tend to capture only a subset of variations present in training data and other approaches to tackle this problem are rather cumbersome.</p>
+
+    <p><strong><span class="underline">Result:</span></strong> In their experiment, including mini batch standard variation improved the sliced Wasserstein loss.</p>
+  </li>
+</ul>
+
+<p><strong>Did their experiments show an improvement?</strong></p>
+
+<p><img src="/images/2020-03-09-progressively-grown-gans/media/image1.jpg" alt="" />
+source: <a href="https://arxiv.org/pdf/1710.10196v3.pdf"><em>Prograssive growing of GANs for Improved quality, stability and variation.</em></a></p>
+
+<p>As can be seen from their results that compare how different training configurations compare in terms of their SWD losses and structural similarities (MS-SIM) of generated images from different datasets (CELEBA and LSUN), progressive GANs have a significantly improved performance. Removing any of the teams new contributions makes the network perform in a handicapped manner as can be seen with and without minibatch standard deviation in (e) and (e*) respectively.</p>
+
+<p><img src="/images/2020-03-09-progressively-grown-gans/media/Effect of progressive growing on training speed and convergence.jpg" alt="" />
+source: <a href="https://arxiv.org/pdf/1710.10196v3.pdf"><em>Prograssive growing of GANs for Improved quality, stability and variation.</em></a></p>
+
+<h2 id="core-ideas">Core Ideas</h2>
+
+<ul>
+  <li>
+    <p>Older methods had notable weaknesses which were improved on in the paper, including training speed, stability in training and resolution of output images.</p>
+  </li>
+  <li>
+    <p>This paper introduced a new methodology for generating high resolution images by progressively increasing the layers in the network. They also tackled mode collapse by using pixel-wise feature normalization and equalized learning rates for all weights. Finally, they increased variation by introducing minibatch standard deviation and proposed a new way for evaluating generated images.</p>
+  </li>
+  <li>
+    <p>Advantages of the new method introduced:</p>
+  </li>
+</ul>
+
+<ol>
+  <li>
+    <p>Decreased training time. With progressively growing GANs most of the iterations are done at lower resolutions, and comparable result quality is often obtained up to 2–6 times faster, depending on the final output resolution.</p>
+  </li>
+  <li>
+    <p>More stable GAN training.</p>
+  </li>
+  <li>
+    <p>Images are one step closer to photorealism.</p>
+  </li>
+</ol>
+
+<p><!-- end list --></p>
+
+<h2 id="what-the-community-says-about-the-paper">What the community says about the paper?</h2>
+
+<ul>
+  <li><a href="https://paperswithcode.com/sota/image-generation-on-cifar-10">#2 Best Image Generation model</a> for CIFAR10 dataset</li>
+</ul>
+
+<h2 id="future-research-areas">Future research areas</h2>
+
+<ul>
+  <li>
+    <p>Conditional Pro-GANs.</p>
+  </li>
+  <li>
+    <p>Increasing resolution threshold.</p>
+  </li>
+  <li>
+    <p>Increasing training stability (i.e decreasing the chances of mode collapse)
+Notably, some work seems to have been done on that <a href="https://ieeexplore.ieee.org/document/8683262">here</a></p>
+  </li>
+</ul>
+
+<h2 id="possible-business-and-other-applications">Possible business and other applications</h2>
+
+<ul>
+  <li>
+    <p>Applications of Pro-GAN to critical domains, such as <a href="https://arxiv.org/pdf/1902.09856.pdf">this one</a>. Where a Pro-GAN architecture was used to generate high resolution synthesized training data for computer-assisted diagnosis, or this one used to generate <a href="https://eprints.lib.hokudai.ac.jp/dspace/bitstream/2115/75023/1/01SyntheticGastritisImageGenerationViaLossFunction-basedConditionalPGGAN.pdf">Gastritis data</a>.</p>
+  </li>
+  <li>
+    <p>Generating high resolution example datasets for computer vision tasks.</p>
+  </li>
+  <li>
+    <p>Generate high resolution logo (or of anything, really) images for creatives.</p>
+  </li>
+</ul>
+
+<p>P.S: If you think of any I may have omitted, please reach out to me. <em>wink</em></p>
+
+<h2 id="implementations">Implementations</h2>
+
+<p>You can find the original implementation by Tero Karras <a href="https://github.com/tkarras/progressive_growing_of_gans">here</a>. ALternativels, you can follow <a href="https://colab.research.google.com/drive/1_FLJPZGU30spY7fn0sduXdUH0gcWmFKZ">this link</a> for a quick start to the colab notebook I set up using his implementation and pretrained network, so you can run it interactively. Create a copy for yourself and hack away.</p>
+
+<h2 id="new-concepts--terminology">New Concepts / Terminology</h2>
+
+<p><strong>The Inception Score</strong>, or IS for short, is an objective metric for evaluating the quality of generated images, specifically synthetic images output by generative adversarial network models. You can read more about how it is calculated and its application <a href="https://machinelearningmastery.com/how-to-implement-the-inception-score-from-scratch-for-evaluating-generated-images/">here</a>.</p>
+
+<p>Average pooling: Pooling refers to techniques used to downscale / reduce the size of an image gotten from a preceding convolutional layer, in such a way that the information in the image is retained without distortion. Hence, average pooling is just one of the versions of pooling available. You can read all about pooling in <a href="https://www.machinecurve.com/index.php/2020/01/30/what-are-max-pooling-average-pooling-global-max-pooling-and-global-average-pooling/#average-pooling">this post here</a>.</p>
+
+<p><strong>He’s initializer:</strong> A weight initialization method that takes into account the size of the previous layer. The weights are still random, but differ in range depending on the size of the <a href="https://medium.com/@prateekvishnu/xavier-and-he-normal-he-et-al-initialization-8e3d7a087528">previous layer.</a></p>
+
+<p><strong>Laplacian pyramid</strong>: Used to reconstruct an upsampled image from an image lower in the pyramid (with less resolution). Please checkout <a href="https://theailearner.com/tag/laplacian-pyramid-opencv/">this post by Kang and Atul</a> for a very nice explanation and description of the implementation in OpenCV.</p>
+
+<p><strong>Sliced Wasserstein distance (SWD)</strong>: A modification of the Wasserstein loss function used for increasing the stability of training GANs. You can read the rather involved paper that introduced it <a href="https://www.zpascal.net/cvpr2018/Deshpande_Generative_Modeling_Using_CVPR_2018_paper.pdf">here</a>. It leverages on the rather attractive feature of Wasserstein distance while making interesting modifications.</p>
+
+<p><a href="https://arxiv.org/abs/1611.04076"><strong>Least Squares Generative Adversarial Network (LSGAN)</strong></a>: it’s an extension to the GAN architecture that addresses the problem of vanishing gradients and loss saturation. If you would like to read more aboout it, including how to go about implementing it, check out <a href="https://machinelearningmastery.com/least-squares-generative-adversarial-network/">this blog post.</a></p>
+
+<p><strong>WGAN-GP or Wasserstein GAN Gradient penalty</strong>: It is a modification of the cost function used in WGANs. You can read <a href="https://medium.com/@jonathan_hui/gan-wasserstein-gan-wgan-gp-6a1a2aa1b490">this article</a> to learn about the limitations of weight clipping in WGANs and the slight modification that makes WGAN-GP approach more desirable.</p>
+
+<h2 id="training-resources-used">Training resources used</h2>
+
+<ul>
+  <li>
+    <p>Network Architecture
+<img src="/images/2020-03-09-progressively-grown-gans/media/network structure and training configuration.jpg" alt="" />
+source: <a href="https://arxiv.org/pdf/1710.10196v3.pdf"><em>Prograssive growing of GANs for Improved quality, stability and variation.</em></a></p>
+  </li>
+  <li>Hardware / Compute
+    <ol>
+      <li>8 Tesla V100 GPUs, trained for 4 days to achieve convergence.</li>
+    </ol>
+  </li>
+  <li>Datasets
+    <ol>
+      <li>CELEBA-HQ - A dataset containing HD images of celebrities. 30,000 images were used in total.</li>
+      <li>LSUN - It contains around one million labeled images for each of 10 scene categories and 20 object categories.</li>
+      <li>CIFAR10 - It  consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.</li>
+      <li>MNIST -  A database of handwritten digits, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image. It is a good database for people who want to try learning techniques and pattern recognition methods on real-world data while spending minimal efforts on preprocessing and formatting.</li>
+    </ol>
+  </li>
+  <li>Hyperparameters
+    <ol>
+      <li>Optimizer: Adam</li>
+    </ol>
+  </li>
+</ul>
+
+<ol>
+  <li>
+    <p>Activation function: leaky ReLU, leakiness of 0.2</p>
+  </li>
+  <li>
+    <p>No learning rate decay or rampdown.</p>
+  </li>
+  <li>
+    <p><em>n</em><sub>critic</sub> = 1</p>
+  </li>
+  <li>
+    <p>Small weight added to discriminator output.</p>
+  </li>
+  <li>
+    <p>Adaptive minibatch size depending on the current output resolution.</p>
+  </li>
+</ol>
+
+<p><strong>Authors of the original paper</strong>: <a href="https://research.nvidia.com/person/tero-karras">Tero Karras</a> (NVIDIA), <a href="https://research.nvidia.com/person/timo-aila">Timo Aila</a> (NVIDIA), <a href="https://research.nvidia.com/person/samuli-laine">Samuli Laine</a> (NVIDIA), <a href="https://research.nvidia.com/person/jaakko-lehtinen">Jaakko Lehtinen</a> (NVIDIA and Aalto University)</p>
+
+<p>That’s it for this post. Thank you for your time!</p>
+
+<p>Please let me know in the comments:</p>
+
+<ol>
+  <li>
+    <p>Any new AI research papers you would like me to review.</p>
+  </li>
+  <li>
+    <p>Suggestions regarding the content that might need more explanation.</p>
+  </li>
+  <li>
+    <p>Anything you want really.</p>
+  </li>
+</ol>
+
