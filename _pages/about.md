@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 toc: true
 title: About
 permalink: /about/
@@ -7,8 +7,8 @@ permalink: /about/
 {% if jekyll.environment == 'production' %}
 {% include google-analytics.html %}
 {% endif %}
-<div class="home">
-## **Introduction**
+
+##  **Introduction**
 
 Hi there! In case it was not obvious enough from all the name tags, my name is Wale Opakunle.
 I am a deep learning practitioner, machine learning engineer and data journalist, well, most of the time. 
@@ -23,7 +23,9 @@ However, I have come to learn a whole lot by putting in the effort and I am dete
 
 It is my deepest desire that I create an awareness of the possibilities that developments in artificial intelligence affords us and by so doing, infect as many as possible within my community with this passion and knowledge, that we may bring about the change we so much desire to see in my country, for ourselves and for posterity.
 
-## **Vision for my blog**
+--- 
+
+##  **Vision for my blog**
 
 In light of the above, my blog is dedicated to do the following:
 
