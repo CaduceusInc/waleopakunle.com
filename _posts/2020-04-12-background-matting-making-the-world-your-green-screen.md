@@ -238,13 +238,13 @@ For even more details such as the nitty gritty of the network architecture, trai
 
 ## **Resources**
 
-- Link to their paper: https://arxiv.org/pdf/2004.00626.pdf
-- Link to their inference code base: https://github.com/senguptaumd/Background-Matting
+- Link to their [paper] (https://arxiv.org/pdf/2004.00626.pdf)
+- Link to their inference [code base](https://github.com/senguptaumd/Background-Matting)
 
 1. Link to their blog post and project page:
 
-- https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635
-- https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635
+- [blog](https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635)
+- [project page](https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635)
 
 1. Link to my colab notebook: **Coming soon**
 
