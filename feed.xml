@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://waleopakunle.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://waleopakunle.com/" rel="alternate" type="text/html" /><updated>2020-04-12T16:27:25-05:00</updated><id>https://waleopakunle.com/feed.xml</id><title type="html">AI Tech Blog</title><subtitle>A chronicle of my passion for developing witty computers.</subtitle><entry><title type="html">Background Matting Making The World Your Green Screen</title><link href="https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen.html" rel="alternate" type="text/html" title="Background Matting Making The World Your Green Screen" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen</id><content type="html" xml:base="https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen.html">&lt;h2 id=&quot;background-matting---making-the-world-your-green-screen&quot;&gt;&lt;strong&gt;Background Matting - Making the world your green screen&lt;/strong&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://waleopakunle.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://waleopakunle.com/" rel="alternate" type="text/html" /><updated>2020-04-12T16:29:23-05:00</updated><id>https://waleopakunle.com/feed.xml</id><title type="html">AI Tech Blog</title><subtitle>A chronicle of my passion for developing witty computers.</subtitle><entry><title type="html">Background Matting Making The World Your Green Screen</title><link href="https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen.html" rel="alternate" type="text/html" title="Background Matting Making The World Your Green Screen" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen</id><content type="html" xml:base="https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen.html">&lt;h2 id=&quot;background-matting---making-the-world-your-green-screen&quot;&gt;&lt;strong&gt;Background Matting - Making the world your green screen&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;
 
@@ -153,7 +153,7 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;using 4 encoders managed by a Context Switching block of selectors and 3 Residual Blocks and Decoders, trained on the Adobe dataset.&lt;/p&gt;
+&lt;p&gt;This is done using 4 encoders managed by a Context Switching block of selectors and 3 Residual Blocks and Decoders, trained on the Adobe dataset.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/2020-03-09-matting/media/supervised-portion-of-architecture.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
 
@@ -223,12 +223,19 @@
 &lt;ul&gt;
   &lt;li&gt;Link to their paper: https://arxiv.org/pdf/2004.00626.pdf&lt;/li&gt;
   &lt;li&gt;Link to their inference code base: https://github.com/senguptaumd/Background-Matting&lt;/li&gt;
-  &lt;li&gt;Link to my blog post on this summary and the following resources:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Link to their blog post and project page:&lt;/li&gt;
-  &lt;li&gt;Link to my colab notebook&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635&lt;/li&gt;
+  &lt;li&gt;https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Link to my colab notebook: &lt;strong&gt;Coming soon&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&quot;new-concepts&quot;&gt;&lt;strong&gt;New Concepts&lt;/strong&gt;&lt;/h3&gt;
@@ -247,9 +254,9 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;a href=&quot;https://www.mathworks.com/help/images/ref/affine2d.html&quot;&gt;Affine transformation&lt;/a&gt; is a linear mapping method that preserves points, straight lines, and planes. Sets of parallel lines remain parallel after an affine transformation.&lt;/p&gt;
-&lt;/blockquote&gt;
 
-&lt;p&gt;The affine transformation technique is typically used to correct for geometric distortions or deformations that occur with non-ideal camera angles. For example, satellite imagery uses affine transformations to correct for wide angle lens distortion, panorama stitching, and image registration. Transforming and fusing the images to a large, flat coordinate system is desirable to eliminate distortion. This enables easier interactions and calculations that don’t require accounting for image distortion. - Mathworks.com&lt;/p&gt;</content><author><name>Wale</name></author><summary type="html">Background Matting - Making the world your green screen</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://waleopakunle.com/covid-eda-project/" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-03-20T00:00:00-05:00</published><updated>2020-03-20T00:00:00-05:00</updated><id>https://waleopakunle.com/covid-19-eda</id><content type="html" xml:base="https://waleopakunle.com/covid-eda-project/">&lt;!--
+  &lt;p&gt;The affine transformation technique is typically used to correct for geometric distortions or deformations that occur with non-ideal camera angles. For example, satellite imagery uses affine transformations to correct for wide angle lens distortion, panorama stitching, and image registration. Transforming and fusing the images to a large, flat coordinate system is desirable to eliminate distortion. This enables easier interactions and calculations that don’t require accounting for image distortion. - Mathworks.com&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Wale</name></author><summary type="html">Background Matting - Making the world your green screen</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://waleopakunle.com/covid-eda-project/" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-03-20T00:00:00-05:00</published><updated>2020-03-20T00:00:00-05:00</updated><id>https://waleopakunle.com/covid-19-eda</id><content type="html" xml:base="https://waleopakunle.com/covid-eda-project/">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
