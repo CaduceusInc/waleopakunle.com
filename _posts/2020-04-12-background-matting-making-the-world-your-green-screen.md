@@ -179,7 +179,7 @@ The output of the supervised training are the foreground image **“F”** as we
 Remember the matting equation we talked about? These are the unknowns they are trying to decipher. F and **α** are then laid over various backgrounds from the Adobe dataset. However the outputs at this stage were discovered to not be refined enough. That's where the other part of the system comes in.
 
 
-1. ##### An unsupervised training using a Generative Adversarial Network.
+2. ##### An unsupervised training using a Generative Adversarial Network.
 
 ![img](/images/2020-03-09-matting/media/unsupervised-portion-of-architecture.png)
 
@@ -202,7 +202,7 @@ To get a feel of the adversarial training losses and more details about the arch
 
 
 
-## **KEY ACHIEVEMENTS OF THE PAPER**
+## **Key achievements of the paper**
 
 It is my understanding that because this is a novel architecture and approach, there was no numerical benchmark available for this research. Hence, they conducted user studies for their real data testing. What they did was use previously available methods that make use of trimaps to generate mattes, and then take a survey of users to find out which they thought was best.
 
@@ -228,7 +228,7 @@ It is my understanding that because this is a novel architecture and approach, t
 
 ## **Conclusion**
 
-I have gone over a proposed background matting technique that enables casual capture of high quality foreground+alpha mattes in natural settings, presented by researchers from Washington University. Their method requires the photographer to take a shot with a (human) subject and without, not moving much between shots. This approach avoids using a green screen or painstakingly constructing a detailed trimap as typically needed for high matting quality. They have developed a deep learning framework trained on synthetic-composite data and then adapted to real data using an adversarial network.
+In this post, I have gone over a proposed background matting technique that enables casual capture of high quality foreground+alpha mattes in natural settings, presented by researchers from Washington University. Their method requires the photographer to take a shot with a (human) subject and without, not moving much between shots. This approach avoids using a green screen or painstakingly constructing a detailed trimap as typically needed for high matting quality. They have developed a deep learning framework trained on synthetic-composite data and then adapted to real data using an adversarial network.
 
 For even more details such as the nitty gritty of the network architecture, training dataset, hyperparameters and such, I suggest you read their official paper.
 
@@ -238,11 +238,11 @@ For even more details such as the nitty gritty of the network architecture, trai
 
 ## **Resources**
 
-- Link to their [paper] (https://arxiv.org/pdf/2004.00626.pdf)
-- Link to their inference [code base](https://github.com/senguptaumd/Background-Matting)
+1. Link to their [paper](https://arxiv.org/pdf/2004.00626.pdf)
+
+1. Link to their inference [code base](https://github.com/senguptaumd/Background-Matting)
 
 1. Link to their blog post and project page:
-
 - [blog](https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635)
 - [project page](https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635)
 
