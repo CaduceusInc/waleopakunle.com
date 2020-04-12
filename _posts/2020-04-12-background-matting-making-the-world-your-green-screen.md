@@ -162,7 +162,7 @@ The training of the network consists of two parts:
 
 1. ##### **Supervised training** 
 
-using 4 encoders managed by a Context Switching block of selectors and 3 Residual Blocks and Decoders, trained on the Adobe dataset.
+This is done using 4 encoders managed by a Context Switching block of selectors and 3 Residual Blocks and Decoders, trained on the Adobe dataset.
 
 
 
@@ -240,10 +240,13 @@ For even more details such as the nitty gritty of the network architecture, trai
 
 - Link to their paper: https://arxiv.org/pdf/2004.00626.pdf
 - Link to their inference code base: https://github.com/senguptaumd/Background-Matting
-- Link to my blog post on this summary and the following resources:
 
 1. Link to their blog post and project page:
-2. Link to my colab notebook
+
+- https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635
+- https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635
+
+1. Link to my colab notebook: **Coming soon**
 
 ### **New Concepts**
 
@@ -256,5 +259,5 @@ For even more details such as the nitty gritty of the network architecture, trai
 - Random affine transformations
 
 > [Affine transformation](https://www.mathworks.com/help/images/ref/affine2d.html) is a linear mapping method that preserves points, straight lines, and planes. Sets of parallel lines remain parallel after an affine transformation.
-
-The affine transformation technique is typically used to correct for geometric distortions or deformations that occur with non-ideal camera angles. For example, satellite imagery uses affine transformations to correct for wide angle lens distortion, panorama stitching, and image registration. Transforming and fusing the images to a large, flat coordinate system is desirable to eliminate distortion. This enables easier interactions and calculations that don’t require accounting for image distortion. - Mathworks.com
+>
+> The affine transformation technique is typically used to correct for geometric distortions or deformations that occur with non-ideal camera angles. For example, satellite imagery uses affine transformations to correct for wide angle lens distortion, panorama stitching, and image registration. Transforming and fusing the images to a large, flat coordinate system is desirable to eliminate distortion. This enables easier interactions and calculations that don’t require accounting for image distortion. - Mathworks.com
