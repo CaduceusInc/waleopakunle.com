@@ -13,11 +13,11 @@ categories: [Matting, GANs]
 
 ​														*Source: giphy.com*
 
-Have you ever wished to replace the background of a picture you took and just did not want to go through the hassle of using a professional studio? Are you a graphics designer or movie director and are just sick of having to use green screens for your video recordings? Well, if that happens to be you for some reason, I have great news for you! You can now easily replace the background of your images and videos with ease, depending on you or your team’s level of technical experience. You can now do this from the comfort of your home using a fixed or handheld camera, thanks to the work of a computer vision research team at the University of Washington. In their paper released on the 1st of April, they describe a novel architecture they came up with which lets you do just that! Now, all you need to make this a reality is a couple of GPUs, a picture(or video) of the background you want (without you in it) as well as a picture(or video) of you, all taken from your handheld mobile device. Their method is state of the art, and in my opinion, provides images that are comparable to professional images.
+Have you ever wished to replace the background of a picture you took and just did not want to go through the hassle of using a professional studio? Are you a graphics designer or movie director and are just sick of having to use green screens for your video recordings? Well, if that happens to be you for some reason, I have great news for you! You can now easily replace the background of your images and videos with ease, depending on you or your team’s level of technical experience. You can now do this from the comfort of your home using a fixed or handheld camera, thanks to the work of a computer vision research team at the University of Washington. In their paper released on the 1st of April, they describe a novel architecture they came up with which lets you do just that! Now, all you need to make this a reality is a couple of GPUs, a picture(or video) of the background you want (without you in it) as well as a picture(or video) of you in the same background, all taken from your handheld mobile device. Their method is state of the art, and in my opinion, provides images that are comparable to professional images.
 
 
 
-In this post, I am going to be giving you the key take-aways from their paper without getting too technical. I will walk you through the core ideas of their paper, possible lucrative applications of the technology, as well as other resources to help you dive further in. I will also be providing a notebook set up for you to try your hands on this novel architecture, and make new mattes of yourself and your friends. 
+In this post, I am going to be giving you the key ideas from their paper without getting too technical. I will walk you through the core ideas of their paper, possible lucrative applications of the technology, as well as other resources to help you dive further in. I will also be providing a notebook set up for you to try your hands on this novel architecture, and make new mattes of yourself and your friends. 
 
 
 
@@ -29,7 +29,7 @@ In this post, I am going to be giving you the key take-aways from their paper wi
 
 The problem they attempt to solve is the problem of matting a foreground to a different background, while maintaining the integrity and quality of the image. In order to achieve this, they modeled the problem using this equation:
 
-**C = F \*** **α + B \*(1-α)**          			 **i.**
+**C = F \*** **α + B \*(1-α)**          															. . .	 **i.**
 
 This is called the **matting equation.**
 
@@ -55,7 +55,7 @@ Matting is the process of separating an image into foreground (F) and background
 
 Now let’s look at that matting equation again:
 
-**C = F \*** **α + B \*(1-α)**      						    **i.**
+**C = F \*** **α + B \*(1-α)**      						    . . .   **i.**
 
 Precisely, they attempt to solve for the Foreground (F), Background (B) and transparency (**α**) for each pixel in a given image. 
 
@@ -80,7 +80,7 @@ Most existing matting methods of creating mattes require a green screen backgrou
 - Context Aware Matting (CAM) which simultaneously predicts the alpha and the foreground, thus solving the complete matting problem, but is not robust to faulty trimaps.
 - Sampling based methods which use sampling to build the color statistics of the known foreground and background, and then solve for the matte in the ‘unknown’ region.
 - Propagation-based approaches aim to propagate the alpha matte from the foreground and the background region into the ‘unknown’ region to solve the matting equation. Both sampling and propagation approaches are traditional approaches.
-- **Matting with known natural background**: Some older methods solved matting with a natural background by simple background subtraction and thresholding but the results were very sensitive to the threshold and produced binary mattes.
+- Matting with known natural background: Some older methods solved matting with a natural background by simple background subtraction and thresholding but the results were very sensitive to the threshold and produced binary mattes.
 
 ![img](/images/2020-03-09-matting/media/segmentation-and-matting-difference.png)
 
@@ -102,7 +102,12 @@ Most existing matting methods of creating mattes require a green screen backgrou
 **What do they propose to do differently?**
 
 - Use casually taken images of the background with and without the subject.
+  ![image-capture-process](/images/2020-03-09-matting/media/image-capture-process.png)
+
+  *The image capturing process* *Source: Vivek Jarayam’s blog post on Towards Data Science*
+
 - Use a context switching block to switch between scenarios.
+
 - Use a GAN architecture to refine the matting output.
 
 
