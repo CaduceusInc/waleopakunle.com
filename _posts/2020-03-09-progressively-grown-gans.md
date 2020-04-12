@@ -148,7 +148,7 @@ source: [*Prograssive growing of GANs for Improved quality, stability and variat
 
 ## Implementations
 
-You can find the original implementation by Tero Karras [here](https://github.com/tkarras/progressive_growing_of_gans). ALternativels, you can follow [this link](https://colab.research.google.com/drive/1_FLJPZGU30spY7fn0sduXdUH0gcWmFKZ) for a quick start to the colab notebook I set up using his implementation and pretrained network, so you can run it interactively. Create a copy for yourself and hack away.
+You can find the original implementation by Tero Karras [here](https://github.com/tkarras/progressive_growing_of_gans). Alternatively, you can follow [this link](https://colab.research.google.com/drive/1_FLJPZGU30spY7fn0sduXdUH0gcWmFKZ) for a quick start to the colab notebook I set up using his implementation and pretrained network, so you can run it interactively. Create a copy for yourself and hack away.
 
 ## New Concepts / Terminology
 
