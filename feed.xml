@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://waleopakunle.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://waleopakunle.com/" rel="alternate" type="text/html" /><updated>2020-04-12T16:33:04-05:00</updated><id>https://waleopakunle.com/feed.xml</id><title type="html">AI Tech Blog</title><subtitle>A chronicle of my passion for developing witty computers.</subtitle><entry><title type="html">Background Matting Making The World Your Green Screen</title><link href="https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen.html" rel="alternate" type="text/html" title="Background Matting Making The World Your Green Screen" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen</id><content type="html" xml:base="https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen.html">&lt;h2 id=&quot;background-matting---making-the-world-your-green-screen&quot;&gt;&lt;strong&gt;Background Matting - Making the world your green screen&lt;/strong&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://waleopakunle.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://waleopakunle.com/" rel="alternate" type="text/html" /><updated>2020-04-12T16:38:12-05:00</updated><id>https://waleopakunle.com/feed.xml</id><title type="html">AI Tech Blog</title><subtitle>A chronicle of my passion for developing witty computers.</subtitle><entry><title type="html">Background Matting Making The World Your Green Screen</title><link href="https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen.html" rel="alternate" type="text/html" title="Background Matting Making The World Your Green Screen" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen</id><content type="html" xml:base="https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen.html">&lt;h2 id=&quot;background-matting---making-the-world-your-green-screen&quot;&gt;&lt;strong&gt;Background Matting - Making the world your green screen&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;
 
@@ -188,7 +188,7 @@
   &lt;li&gt;Gets rid of the need to use a trimap altogether. A casual image in a natural background is sufficient.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;key-achievements-of-the-paper&quot;&gt;&lt;strong&gt;KEY ACHIEVEMENTS OF THE PAPER&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;key-achievements-of-the-paper&quot;&gt;&lt;strong&gt;Key achievements of the paper&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;p&gt;It is my understanding that because this is a novel architecture and approach, there was no numerical benchmark available for this research. Hence, they conducted user studies for their real data testing. What they did was use previously available methods that make use of trimaps to generate mattes, and then take a survey of users to find out which they thought was best.&lt;/p&gt;
 
@@ -214,27 +214,25 @@
 
 &lt;h2 id=&quot;conclusion&quot;&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;I have gone over a proposed background matting technique that enables casual capture of high quality foreground+alpha mattes in natural settings, presented by researchers from Washington University. Their method requires the photographer to take a shot with a (human) subject and without, not moving much between shots. This approach avoids using a green screen or painstakingly constructing a detailed trimap as typically needed for high matting quality. They have developed a deep learning framework trained on synthetic-composite data and then adapted to real data using an adversarial network.&lt;/p&gt;
+&lt;p&gt;In this post, I have gone over a proposed background matting technique that enables casual capture of high quality foreground+alpha mattes in natural settings, presented by researchers from Washington University. Their method requires the photographer to take a shot with a (human) subject and without, not moving much between shots. This approach avoids using a green screen or painstakingly constructing a detailed trimap as typically needed for high matting quality. They have developed a deep learning framework trained on synthetic-composite data and then adapted to real data using an adversarial network.&lt;/p&gt;
 
 &lt;p&gt;For even more details such as the nitty gritty of the network architecture, training dataset, hyperparameters and such, I suggest you read their official paper.&lt;/p&gt;
 
 &lt;h2 id=&quot;resources&quot;&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Link to their [paper] (https://arxiv.org/pdf/2004.00626.pdf)&lt;/li&gt;
-  &lt;li&gt;Link to their inference &lt;a href=&quot;https://github.com/senguptaumd/Background-Matting&quot;&gt;code base&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;ol&gt;
-  &lt;li&gt;Link to their blog post and project page:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635&quot;&gt;blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635&quot;&gt;project page&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Link to their &lt;a href=&quot;https://arxiv.org/pdf/2004.00626.pdf&quot;&gt;paper&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Link to their inference &lt;a href=&quot;https://github.com/senguptaumd/Background-Matting&quot;&gt;code base&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Link to their blog post and project page:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635&quot;&gt;blog&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635&quot;&gt;project page&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;Link to my colab notebook: &lt;strong&gt;Coming soon&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
