@@ -3,6 +3,7 @@ toc: true
 comments: true
 author: Wale
 categories: [GANs, Research paper, Pro-GAN]
+permalink: /papers/:year/:month/:day/:title
 ---
 
 ## [A Summary of Progressive Growing of GANs for improved quality, stability and variation (Pro-GANs) ](https://arxiv.org/pdf/1710.10196v3.pdf)

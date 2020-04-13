@@ -2,10 +2,11 @@
 toc: true
 comments: true
 author: Wale
-categories: [Matting, GANs]
+categories: [Matting, Research paper, GANs]
+permalink: /papers/:year/:month/:day/:title
 ---
 
-## **Background Matting - Making the world your green screen**
+## **Background Matting --- Making the world your green screen**
 
 ## **Introduction**
 
@@ -102,12 +103,13 @@ Most existing matting methods of creating mattes require a green screen backgrou
 **What do they propose to do differently?**
 
 - Use casually taken images of the background with and without the subject.
-  ![image-capture-process](/images/2020-03-09-matting/media/image-capture-process.png)
 
-  *The image capturing process* *Source: Vivek Jarayam’s blog post on Towards Data Science*
+
+![image-capture-process](/images/2020-03-09-matting/media/image-capture-process.png)
+
+*The image capture process*.    *Source: Soumyadip Sengupta et al.* 
 
 - Use a context switching block to switch between scenarios.
-
 - Use a GAN architecture to refine the matting output.
 
 
