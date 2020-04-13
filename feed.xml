@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://waleopakunle.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://waleopakunle.com/" rel="alternate" type="text/html" /><updated>2020-04-12T16:55:14-05:00</updated><id>https://waleopakunle.com/feed.xml</id><title type="html">AI Tech Blog</title><subtitle>A chronicle of my passion for developing witty computers.</subtitle><entry><title type="html">Background Matting Making The World Your Green Screen</title><link href="https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen.html" rel="alternate" type="text/html" title="Background Matting Making The World Your Green Screen" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen</id><content type="html" xml:base="https://waleopakunle.com/matting/gans/2020/04/12/background-matting-making-the-world-your-green-screen.html">&lt;h2 id=&quot;background-matting---making-the-world-your-green-screen&quot;&gt;&lt;strong&gt;Background Matting - Making the world your green screen&lt;/strong&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://waleopakunle.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://waleopakunle.com/" rel="alternate" type="text/html" /><updated>2020-04-12T19:32:51-05:00</updated><id>https://waleopakunle.com/feed.xml</id><title type="html">AI Tech Blog</title><subtitle>A chronicle of my passion for developing witty computers.</subtitle><entry><title type="html">Latest In Ai Research</title><link href="https://waleopakunle.com/papers/2020/04/12/latest-in-ai-research" rel="alternate" type="text/html" title="Latest In Ai Research" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>https://waleopakunle.com/papers/2020/04/12/latest-in-ai-research</id><content type="html" xml:base="https://waleopakunle.com/papers/2020/04/12/latest-in-ai-research">&lt;p&gt;Here is a compilation of my reading list for the past week as well as a personal completion tracker.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Paper Title&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Paper&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Source Code&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Read&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Implemented&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Background Matting&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://arxiv.org/pdf/2004.00626v1.pdf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://github.com/senguptaumd/Background-Matting&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:heavy_check_mark:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://arxiv.org/pdf/2003.08934v1.pdf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://github.com/yenchenlin/nerf-pytorch&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tracking Objects as Points&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://arxiv.org/pdf/2004.01177v1.pdf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://github.com/xingyizhou/CenterTrack&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Deep Residual Learning for Image Recognition&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://arxiv.org/pdf/1512.03385v1.pdf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://github.com/tensorflow/models/tree/master/research/deeplab&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Weight Uncertainty in Neural Networks&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://arxiv.org/pdf/1505.05424v2.pdf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://github.com/piEsposito/blitz-bayesian-deep-learning&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Multi-Interest Network with Dynamic Routing for Recommendation at Tmall&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://arxiv.org/pdf/1904.08030v1.pdf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://github.com/shenweichen/deepmatch&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Neural Collaborative Filtering&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://arxiv.org/pdf/1708.05031.pdf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://github.com/shenweichen/deepmatch&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;TResNet: High Performance GPU-Dedicated Architecture&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://arxiv.org/pdf/2003.13630v1.pdf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://github.com/mrT23/TResNet&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Strip Pooling: Rethinking Spatial Pooling for Scene Parsing&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://arxiv.org/pdf/2003.13328v1.pdf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;https://github.com/Andrew-Qibin/SPNet&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;:x:&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Wale</name></author><summary type="html">Here is a compilation of my reading list for the past week as well as a personal completion tracker.</summary></entry><entry><title type="html">Background Matting Making The World Your Green Screen</title><link href="https://waleopakunle.com/papers/2020/04/12/background-matting-making-the-world-your-green-screen" rel="alternate" type="text/html" title="Background Matting Making The World Your Green Screen" /><published>2020-04-12T00:00:00-05:00</published><updated>2020-04-12T00:00:00-05:00</updated><id>https://waleopakunle.com/papers/2020/04/12/background-matting-making-the-world-your-green-screen</id><content type="html" xml:base="https://waleopakunle.com/papers/2020/04/12/background-matting-making-the-world-your-green-screen">&lt;h2 id=&quot;background-matting--making-the-world-your-green-screen&quot;&gt;&lt;strong&gt;Background Matting — Making the world your green screen&lt;/strong&gt;&lt;/h2&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h2&gt;
 
@@ -85,18 +162,16 @@
 &lt;p&gt;&lt;strong&gt;What do they propose to do differently?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Use casually taken images of the background with and without the subject.
-&lt;img src=&quot;/images/2020-03-09-matting/media/image-capture-process.png&quot; alt=&quot;image-capture-process&quot; /&gt;&lt;/p&gt;
+  &lt;li&gt;Use casually taken images of the background with and without the subject.&lt;/li&gt;
+&lt;/ul&gt;
 
-    &lt;p&gt;&lt;em&gt;The image capturing process&lt;/em&gt; &lt;em&gt;Source: Vivek Jarayam’s blog post on Towards Data Science&lt;/em&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Use a context switching block to switch between scenarios.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Use a GAN architecture to refine the matting output.&lt;/p&gt;
-  &lt;/li&gt;
+&lt;p&gt;&lt;img src=&quot;/images/2020-03-09-matting/media/image-capture-process.png&quot; alt=&quot;image-capture-process&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The image capture process&lt;/em&gt;.    &lt;em&gt;Source: Soumyadip Sengupta et al.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use a context switching block to switch between scenarios.&lt;/li&gt;
+  &lt;li&gt;Use a GAN architecture to refine the matting output.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Limitations of their method?&lt;/strong&gt;&lt;/p&gt;
@@ -263,7 +338,7 @@
   &lt;p&gt;&lt;a href=&quot;https://www.mathworks.com/help/images/ref/affine2d.html&quot;&gt;Affine transformation&lt;/a&gt; is a linear mapping method that preserves points, straight lines, and planes. Sets of parallel lines remain parallel after an affine transformation.&lt;/p&gt;
 
   &lt;p&gt;The affine transformation technique is typically used to correct for geometric distortions or deformations that occur with non-ideal camera angles. For example, satellite imagery uses affine transformations to correct for wide angle lens distortion, panorama stitching, and image registration. Transforming and fusing the images to a large, flat coordinate system is desirable to eliminate distortion. This enables easier interactions and calculations that don’t require accounting for image distortion. - Mathworks.com&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Wale</name></author><summary type="html">Background Matting - Making the world your green screen</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://waleopakunle.com/covid-eda-project/" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-03-20T00:00:00-05:00</published><updated>2020-03-20T00:00:00-05:00</updated><id>https://waleopakunle.com/covid-19-eda</id><content type="html" xml:base="https://waleopakunle.com/covid-eda-project/">&lt;!--
+&lt;/blockquote&gt;</content><author><name>Wale</name></author><summary type="html">Background Matting — Making the world your green screen</summary></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://waleopakunle.com/covid-eda-project/" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-03-20T00:00:00-05:00</published><updated>2020-03-20T00:00:00-05:00</updated><id>https://waleopakunle.com/covid-19-eda</id><content type="html" xml:base="https://waleopakunle.com/covid-eda-project/">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -417,7 +492,7 @@ https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#deprecate-
 &lt;/div&gt;
     
 
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://waleopakunle.com/images/chart-preview.png" /><media:content medium="image" url="https://waleopakunle.com/images/chart-preview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Progressively Grown Gans</title><link href="https://waleopakunle.com/gans/research%20paper/pro-gan/2020/03/09/progressively-grown-gans.html" rel="alternate" type="text/html" title="Progressively Grown Gans" /><published>2020-03-09T00:00:00-05:00</published><updated>2020-03-09T00:00:00-05:00</updated><id>https://waleopakunle.com/gans/research%20paper/pro-gan/2020/03/09/progressively-grown-gans</id><content type="html" xml:base="https://waleopakunle.com/gans/research%20paper/pro-gan/2020/03/09/progressively-grown-gans.html">&lt;h2 id=&quot;a-summary-of-progressive-growing-of-gans-for-improved-quality-stability-and-variation-pro-gans-&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1710.10196v3.pdf&quot;&gt;A Summary of Progressive Growing of GANs for improved quality, stability and variation (Pro-GANs) &lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://waleopakunle.com/images/chart-preview.png" /><media:content medium="image" url="https://waleopakunle.com/images/chart-preview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Progressively Grown Gans</title><link href="https://waleopakunle.com/papers/2020/03/09/progressively-grown-gans" rel="alternate" type="text/html" title="Progressively Grown Gans" /><published>2020-03-09T00:00:00-05:00</published><updated>2020-03-09T00:00:00-05:00</updated><id>https://waleopakunle.com/papers/2020/03/09/progressively-grown-gans</id><content type="html" xml:base="https://waleopakunle.com/papers/2020/03/09/progressively-grown-gans">&lt;h2 id=&quot;a-summary-of-progressive-growing-of-gans-for-improved-quality-stability-and-variation-pro-gans-&quot;&gt;&lt;a href=&quot;https://arxiv.org/pdf/1710.10196v3.pdf&quot;&gt;A Summary of Progressive Growing of GANs for improved quality, stability and variation (Pro-GANs) &lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Before we begin, I thought it would be more insightful (and interesting) if you could first see for yourself what the algorithm produced in this paper is capable of. If you’re interested, please check &lt;a href=&quot;https://youtu.be/G06dEcZ-QTg&quot;&gt;this youtube video out.&lt;/a&gt;&lt;/p&gt;
 
