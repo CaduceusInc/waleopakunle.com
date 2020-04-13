@@ -8,7 +8,6 @@ permalink: /papers/:year/:month/:day/:title
 
 ## **Background Matting --- Making the world your green screen**
 
-## **Introduction**
 
 ![appearing-blue-spirit](https://media.giphy.com/media/mDSTfBsVus2o1ZA4YB/giphy.gif)
 
