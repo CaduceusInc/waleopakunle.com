@@ -2,6 +2,7 @@
 toc: true
 comments: true
 author: Wale
+image: /images/2020-03-09-progressively-grown-gans/media/Pro-GAN.png
 categories: [GANs, Research paper, Pro-GAN]
 permalink: /papers/:year/:month/:day/:title
 ---
