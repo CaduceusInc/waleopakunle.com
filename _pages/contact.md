@@ -10,7 +10,6 @@ permalink: "/contact"
     <div id="mc_embed_signup_scroll">
 	<h2>Subscribe to my mailing list.</h2>
     <h2>No spams ever</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 	<input type="email" SIZE="30" value="jonsnow@example.com" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
 	<input type="text" SIZE="30" value="Jon" name="FNAME" class="required" id="mce-FNAME" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
 	<input type="text" SIZE="30" value="Snow" name="LNAME" class="required" id="mce-LNAME" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
