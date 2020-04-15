@@ -4,7 +4,7 @@ comments: true
 author: Wale
 image: images/2020-04-14-openai-microscope/resnetV2_50_deep_dream.png
 categories: [AI News]
-permalink: /papers/:year/:month/:day/:title
+permalink: /ai-news/:year/:month/:day/:title
 ---
 
 ## OpenAI Releases Microscope
@@ -47,9 +47,9 @@ There are a few drawbacks to the Microscope though, although I believe these are
 1. Can't use your custom model... yet. This was a big blow to me. When I read the introduction to the launch, I had already started anticipating configuring the Microscope to visualize how GANs come about their outputs. It seems that's a pipe-dream for now. The community is stuck using relatively older models till the tool is upgraded. The reason for this is that the tooling for developing these distributed jobs isn't available to everyone just yet.
 
 
-Asides from these draw backs, it does look like a particularly promising and powerful tool. And it produces some really slick visuals!
+Asides from these draw backs, it does look like a particularly promising and powerful tool. And it produces some really slick visuals! This tool is a major improvement in the field of model interpretability. Conceptualizing features and neuron interactions is fundamental to evolve our understanding of increasingly complex deep learning models.
 
 Y'all should check it out! let me know what you think about this tool in the comments! 
-Don't forget to tag me if you find really cool visauls!
+Don't forget to tag me if you find really cool visuals!
 
 Until next time, stay safe!
