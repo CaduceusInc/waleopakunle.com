@@ -425,6 +425,18 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
+#mailchimp { background: #f8f8f8; color: #3D6392; padding: 20px 15px; }
+
+#mailchimp input { border: medium none; color: gray; font-family: times new roman; font-size: 16px; font-style: italic; margin-bottom: 10px; padding: 8px 10px; width: 300px; border-radius: 20px; -moz-border-radius: 20px; -webkit-border-radius: 20px; }
+
+#mailchimp input.email { background: #fff; }
+
+#mailchimp input.name { background: #fff; }
+
+#mailchimp input[type="submit"] { background: #115B87; color: #fff; cursor: pointer; font-size: 15px; width: 35%; padding: 8px 0; }
+
+#mailchimp input[type="submit"]:hover { color: #F2C94C; }
+
 .form-control { display: block; width: 100%; height: calc(2.5rem + 2px); padding: 0.45rem 1.2rem; font-size: 1rem; line-height: 1.6; color: #495057; background-color: #fff; background-clip: padding-box; border: 1px solid #ced4da; border-radius: 0.25rem; transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
 
 @media screen and (prefers-reduced-motion: reduce) { .form-control { transition: none; } }
