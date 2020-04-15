@@ -253,7 +253,7 @@ For even more details such as the nitty gritty of the network architecture, trai
 - [blog](https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635)
 - [project page](https://towardsdatascience.com/background-matting-the-world-is-your-green-screen-83a3c4f0f635)
 
-1. Link to my colab notebook: **Coming soon**
+1. Link to my colab notebook: [Background matting Implementation](https://colab.research.google.com/drive/1JRfpi7mTHSIs5CGdDVCVAaT8yAfWDq2D)
 
 ### **New Concepts**
 
