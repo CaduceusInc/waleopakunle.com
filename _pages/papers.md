@@ -17,3 +17,5 @@ This page contains a selection of research papers, pooled from my weekly digest 
 
 ## Weekly reading list of the latest in AI research
 [AI Research Reading List - Week 15]({% post_url 2020-04-12-latest-in-ai-research %})
+
+[AI Research Reading List - Week 16]({% post_url 2020-04-15-latest-papers-in-ai-research %})
