@@ -14,6 +14,8 @@ permalink: /papers/:year/:month/:day/:title
 
 ​														*Source: giphy.com*
 
+Link to my colab notebook: [Background matting Implementation](https://colab.research.google.com/drive/1JRfpi7mTHSIs5CGdDVCVAaT8yAfWDq2D)
+
 Have you ever wished to replace the background of a picture you took and just did not want to go through the hassle of using a professional studio? Are you a graphics designer or movie director and are just sick of having to use green screens for your video recordings? Well, if that happens to be you for some reason, I have great news for you! You can now easily replace the background of your images and videos with ease, depending on you or your team’s level of technical experience. You can now do this from the comfort of your home using a fixed or handheld camera, thanks to the work of a computer vision research team at the University of Washington. In their paper released on the 1st of April, they describe a novel architecture they came up with which lets you do just that! Now, all you need to make this a reality is a couple of GPUs, a picture(or video) of the background you want (without you in it) as well as a picture(or video) of you in the same background, all taken from your handheld mobile device. Their method is state of the art, and in my opinion, provides images that are comparable to professional images.
 
 

@@ -5,7 +5,7 @@ search_exclude: false
 permalink: /papers
 ---
 
-This page contains a selection of research papers, pooled from my weekly digest reading list, along with succulent code of course. 
+This page contains a selection of research papers, pooled from my weekly digest reading list, along with succulent code of course.
 
 ## Discussed Papers
 
@@ -13,9 +13,12 @@ This page contains a selection of research papers, pooled from my weekly digest 
 
 [Background Matting - Making the world your green screen]({% post_url 2020-04-12-background-matting-making-the-world-your-green-screen %})
 
---- 
+---
 
 ## Weekly reading list of the latest in AI research
+
 [AI Research Reading List - Week 15]({% post_url 2020-04-12-latest-in-ai-research %})
 
 [AI Research Reading List - Week 16]({% post_url 2020-04-15-latest-papers-in-ai-research %})
+
+[AI Research Reading List - Week 17]({% post_url 2020-04-21-latest-papers-in-ai-research %})

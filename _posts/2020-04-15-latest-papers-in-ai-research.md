@@ -7,11 +7,12 @@ categories: [Trending Research papers]
 permalink: /papers/:year/:month/:day/:title
 ---
 
-Hey there folks! 
+# Latest in AI Research - Week 16
+
+Hey there folks!
 Here is a list of the latest in deep learning research, along with abstract extracts!
 
 ![Research is hard work](https://media.giphy.com/media/3oxHQr6r2x0GqGnois/giphy.gif)
-
 
 * > Title:  3D Photography using Context-aware Layered Depth Inpainting
 
@@ -109,7 +110,7 @@ Here is a list of the latest in deep learning research, along with abstract extr
 
 ---
 
-**Disclaimer**: All papers and their related information is scraped from [Paperswithcode](https://paperswithcode.com/), a super awesome site!
+**Disclaimer**: All papers and their related information are scraped from [Paperswithcode](https://paperswithcode.com/), a super awesome site!
 
 ---
 
