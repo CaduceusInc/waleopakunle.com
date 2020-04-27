@@ -13,6 +13,8 @@ This page contains a selection of research papers, pooled from my weekly digest 
 
 [Background Matting - Making the world your green screen]({% post_url 2020-04-12-background-matting-making-the-world-your-green-screen %})
 
+[GANSpace - Discovering Interpretable GAN Controls]({% post_url 2020-04-26-ganspace %})
+
 ---
 
 ## Weekly reading list of the latest in AI research
