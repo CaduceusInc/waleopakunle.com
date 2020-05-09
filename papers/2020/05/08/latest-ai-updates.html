@@ -1,0 +1,498 @@
+<h1 id="latest-in-ai-research---week-18">Latest in AI Research - Week 18</h1>
+
+<p><img src="https://media.giphy.com/media/26FPC5oAdfeFPkQQE/giphy.gif" alt="R for Research" /></p>
+
+<p>Hey there! It’s another Tuesday, and here is a collation of what’s new in AI research.</p>
+
+<ul>
+  <li>
+    <blockquote>
+      <p>Title:  CNN Explainer - Learning Convolutional Neural Networks with Interactive Visualization</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p><img src="/images/latest-in-ai/convlayer_overview_demo.gif" alt="cnn-explainer" /></p>
+
+<blockquote>
+  <p>Abstract: Deep learning’s great success motivates many practitioners and students to learn about this exciting technology. However, it is often challenging for beginners to take their first step due to the complexity of understanding and applying deep learning. We present CNN Explainer, an interactive visualization tool designed for non-experts to learn and examine convolutional neural networks (CNNs), a foundational deep learning model architecture. Our tool addresses key challenges that novices face while learning about CNNs, which we identify from interviews with instructors and a survey with past students. Users can interactively visualize and inspect the data transformation and flow of intermediate results in a CNN. CNN Explainer tightly integrates a model overview that summarizes a CNN’s structure, and on-demand, dynamic visual explanation views that help users understand the underlying components of CNNs. Through smooth transitions across levels of abstraction, our tool enables users to inspect the interplay between low-level operations (e.g., mathematical computations) and high-level outcomes (e.g., class predictions). To better understand our tool’s benefits, we conducted a qualitative user study, which shows that CNN Explainer can help users more easily understand the inner workings of CNNs, and is engaging and enjoyable to use. We also derive design lessons from our study. Developed using modern web technologies, CNN Explainer runs locally in users’ web browsers without the need for installation or specialized hardware, broadening the public’s education access to modern deep learning techniques.</p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Task:</td>
+        <td>Explainability</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Implementation:</td>
+        <td><a href="https://github.com/poloclub/cnn-explainer">code</a> - Tensorflow</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Authors:</td>
+        <td>Zijie J</td>
+        <td>Wang</td>
+        <td>Robert Turko</td>
+        <td>Omar Shaikh</td>
+        <td>Haekyu Park</td>
+        <td>Nilaksh Das</td>
+        <td>Fred Hohman</td>
+        <td>Minsuk Kahng</td>
+        <td>Duen Horng Chau</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <p>Read the paper <a href="https://arxiv.org/pdf/2004.15004v2.pdf">here</a></p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Other Resources:</td>
+        <td><a href="https://poloclub.github.io/cnn-explainer/">CNN Explainer article</a></td>
+        <td><a href="https://www.youtube.com/watch?v=HnWIHWFbuUQ&amp;feature=youtu.be">youtube</a></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<hr />
+
+<ul>
+  <li>
+    <blockquote>
+      <p>Title:  Jukebox: A Generative Model for Music</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p><img src="/images/latest-in-ai/jukebox.jpg" alt="jukebox" /></p>
+
+<blockquote>
+  <p>Abstract:We introduce Jukebox, a model that generates music with singing in the raw audio domain. We tackle the long context of raw audio using a multiscale VQ-VAE to compress it to discrete codes, and modeling those using autoregressive Transformers. We show that the combined model at scale can generate high-fidelity and diverse songs with coherence up to multiple minutes. We can condition on artist and genre to steer the musical and vocal style, and on unaligned lyrics to make the singing more controllable. We are releasing thousands of non cherry-picked samples, along with model weights and code.</p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Task:</td>
+        <td>Music Generation</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Implementation:</td>
+        <td><a href="https://github.com/openai/jukebox/">code</a></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Authors:</td>
+        <td>Prafulla Dhariwal</td>
+        <td>Heewoo Jun</td>
+        <td>Christine Payne</td>
+        <td>Jong Wook Kim</td>
+        <td>Alec Radford</td>
+        <td>Ilya Sutskever</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <p>Read the paper <a href="https://cdn.openai.com/papers/jukebox.pdf">here</a></p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Other Resources:</td>
+        <td><a href="https://openai.com/blog/jukebox/">OpenAI Blog</a></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<hr />
+
+<ul>
+  <li>
+    <blockquote>
+      <p>Title:  Alleviating the Inconsistency Problem of Applying Graph Neural Network to Fraud Detection</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p><img src="/images/latest-in-ai/inconsistency.png" alt="gnn" /></p>
+
+<blockquote>
+  <p>Abstract: The graph-based model can help to detect suspicious fraud online. Owing to the development of Graph Neural Networks~(GNNs), prior research work has proposed many GNN-based fraud detection frameworks based on either homogeneous graphs or heterogeneous graphs. These work follow the existing GNN framework by aggregating the neighboring information to learn the node embedding, which lays on the assumption that the neighbors share similar context, features, and relations. However, the inconsistency problem is hardly investigated, i.e., the context inconsistency, feature inconsistency, and relation inconsistency. In this paper, we introduce these inconsistencies and design a new GNN framework, GraphConsis, to tackle the inconsistency problem: (1) for the context inconsistency, we propose to combine the context embeddings with node features, (2) for the feature inconsistency, we design a consistency score to filter the inconsistent neighbors and generate corresponding sampling probability, and (3) for the relation inconsistency, we learn a relation attention weights associated with the sampled nodes. Empirical analysis on four datasets indicates the inconsistency problem is crucial in a fraud detection task. The extensive experiments prove the effectiveness of GraphConsis. We also released a GNN-based fraud detection toolbox with implementations of SOTA models.</p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Task:</td>
+        <td>Fraud Detection</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Implementation:</td>
+        <td><a href="https://github.com/safe-graph/DGFraud">code</a></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Authors:</td>
+        <td>Zhiwei Liu</td>
+        <td>Yingtong Dou</td>
+        <td>Philip S. Yu</td>
+        <td>Yutong Deng</td>
+        <td>Hao Peng</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <p>Read the paper <a href="https://arxiv.org/pdf/2005.00625v1.pdf">here</a></p>
+</blockquote>
+
+<hr />
+
+<ul>
+  <li>
+    <blockquote>
+      <p>Title:  TLDR - Extreme Summarization of Scientific Documents</p>
+    </blockquote>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Abstract: We introduce TLDR generation for scientific papers, a new automatic summarization task with high source compression, requiring expert background knowledge and complex language understanding. To facilitate research on this task, we introduce SciTLDR, a dataset of 3.9K TLDRs. Furthermore, we introduce a novel annotation protocol for scalably curating additional gold summaries by rewriting peer review comments. We use this protocol to augment our test set, yielding multiple gold TLDRs for evaluation, which is unlike most recent summarization datasets that assume only one valid gold summary. We present a training strategy for adapting pretrained language models that exploits similarities between TLDR generation and the related task of title generation, which outperforms strong extractive and abstractive summarization baselines.</p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Task:</td>
+        <td>Abstractive text summarization</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Implementation:</td>
+        <td><a href="https://github.com/allenai/scitldr">code</a></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Authors:</td>
+        <td>Isabel Cachola</td>
+        <td>Kyle Lo</td>
+        <td>Arman Cohan</td>
+        <td>Daniel S. Weld</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <p>Read the paper <a href="https://arxiv.org/pdf/2004.15011v2.pdf">here</a></p>
+</blockquote>
+
+<blockquote>
+  <p>Other resources: <a href="https://scitldr.apps.allenai.org/">Demo</a></p>
+</blockquote>
+
+<hr />
+
+<ul>
+  <li>
+    <blockquote>
+      <p>Title:  GIMP-ML - Python Plugins for using Computer Vision Models in GIMP</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p><img src="/images/latest-in-ai/gimp.png" alt="gimp" /></p>
+
+<blockquote>
+  <p>Abstract: This paper introduces GIMP-ML, a set of Python plugins for the widely popular GNU Image Manipulation Program (GIMP). It enables the use of recent advances in computer vision to the conventional image editing pipeline in an open-source setting. Applications from deep learning such as monocular depth estimation, semantic segmentation, mask generative adversarial networks, image super-resolution, de-noising and coloring have been incorporated with GIMP through Python-based plugins. Additionally, operations on images such as edge detection and color clustering have also been added. GIMP-ML relies on standard Python packages such as numpy, scikit-image, pillow, pytorch, open-cv, scipy. Apart from these, several image manipulation techniques using these plugins have been compiled and demonstrated in the YouTube <a href="https://www.youtube.com/playlist?list=PLo9r5wFmpD5dLWTyo6NOiD6BJjhfEOM5t">playlist</a> with the objective of demonstrating the use-cases for machine learning based image modification. In addition, GIMP-ML also aims to bring the benefits of using deep learning networks used for computer vision tasks to routine image processing workflows.</p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Task:</td>
+        <td>DEPTH ESTIMATION</td>
+        <td>EDGE DETECTION</td>
+        <td>IMAGE SUPER-RESOLUTION</td>
+        <td>MONOCULAR DEPTH ESTIMATION</td>
+        <td>SEMANTIC SEGMENTATION</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Implementation:</td>
+        <td><a href="https://github.com/kritiksoman/GIMP-ML">code</a></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Authors:</td>
+        <td>Kritik Soman</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <p>Read the paper <a href="https://arxiv.org/pdf/2004.13060v1.pdf">here</a></p>
+</blockquote>
+
+<hr />
+
+<ul>
+  <li>
+    <blockquote>
+      <p>Title:  TAPAS - Weakly Supervised Table Parsing via Pre-training</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p><img src="/images/latest-in-ai/tapas.png" alt="tapas" /></p>
+
+<blockquote>
+  <p>Abstract: Answering natural language questions over tables is usually seen as a semantic parsing task. To alleviate the collection cost of full logical forms, one popular approach focuses on weak supervision consisting of denotations instead of logical forms. However, training semantic parsers from weak supervision poses difficulties, and in addition, the generated logical forms are only used as an intermediate step prior to retrieving the denotation. In this paper, we present TAPAS, an approach to question answering over tables without generating logical forms. TAPAS trains from weak supervision, and predicts the denotation by selecting table cells and optionally applying a corresponding aggregation operator to such selection. TAPAS extends BERT’s architecture to encode tables as input, initializes from an effective joint pre-training of text segments and tables crawled from Wikipedia, and is trained end-to-end. We experiment with three different semantic parsing datasets, and find that TAPAS outperforms or rivals semantic parsing models by improving state-of-the-art accuracy on SQA from 55.1 to 67.2 and performing on par with the state-of-the-art on WIKISQL and WIKITQ, but with a simpler model architecture. We additionally find that transfer learning, which is trivial in our setting, from WIKISQL to WIKITQ, yields 48.7 accuracy, 4.2 points above the state-of-the-art.</p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Task:</td>
+        <td>QUESTION ANSWERING</td>
+        <td>SEMANTIC PARSING</td>
+        <td>TRANSFER LEARNING</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Implementation:</td>
+        <td><a href="https://github.com/google-research/tapas">code</a></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Authors:</td>
+        <td>Jonathan Herzig</td>
+        <td>Paweł Krzysztof Nowak</td>
+        <td>Thomas Müller</td>
+        <td>Francesco Piccinno</td>
+        <td>Julian Martin Eisenschlos</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <p>Read the paper <a href="https://arxiv.org/pdf/2004.02349v2.pdf">here</a></p>
+</blockquote>
+
+<hr />
+
+<ul>
+  <li>
+    <blockquote>
+      <p>Title:  Reinforcement Learning with Augmented Data</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p><img src="/images/latest-in-ai/RLAD.png" alt="rlad" /></p>
+
+<blockquote>
+  <p>Abstract: Learning from visual observations is a fundamental yet challenging problem in reinforcement learning (RL). Although algorithmic advancements combined with convolutional neural networks have proved to be a recipe for success, current methods are still lacking on two fronts: (a) sample efficiency of learning and (b) generalization to new environments. To this end, we present RAD: Reinforcement Learning with Augmented Data, a simple plug-and-play module that can enhance any RL algorithm. We show that data augmentations such as random crop, color jitter, patch cutout, and random convolutions can enable simple RL algorithms to match and even outperform complex state-of-the-art methods across common benchmarks in terms of data-efficiency, generalization, and wall-clock speed. We find that data diversity alone can make agents focus on meaningful information from high-dimensional observations without any changes to the reinforcement learning method. On the DeepMind Control Suite, we show that RAD is state-of-the-art in terms of data-efficiency and performance across 15 environments. We further demonstrate that RAD can significantly improve the test-time generalization on several OpenAI ProcGen benchmarks. Finally, our customized data augmentation modules enable faster wall-clock speed compared to competing RL techniques.</p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Task:</td>
+        <td>DATA AUGMENTATION</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Implementation:</td>
+        <td><a href="https://github.com/MishaLaskin/rad">code</a></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Authors:</td>
+        <td>Michael Laskin</td>
+        <td>Kimin Lee</td>
+        <td>Adam Stooke</td>
+        <td>Lerrel Pinto</td>
+        <td>Pieter Abbeel</td>
+        <td>Aravind Srinivas</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <p>Read the paper <a href="https://arxiv.org/pdf/2004.14990v2.pdf">here</a></p>
+</blockquote>
+
+<hr />
+
+<ul>
+  <li>
+    <blockquote>
+      <p>Title:  TTNet - Real-time temporal and spatial video analysis of table tennis</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p><img src="/images/latest-in-ai/RLAD.png" alt="rlad" /></p>
+
+<blockquote>
+  <p>Abstract: Learning from visual observations is a fundamental yet challenging problem in reinforcement learning (RL). Although algorithmic advancements combined with convolutional neural networks have proved to be a recipe for success, current methods are still lacking on two fronts: (a) sample efficiency of learning and (b) generalization to new environments. To this end, we present RAD: Reinforcement Learning with Augmented Data, a simple plug-and-play module that can enhance any RL algorithm. We show that data augmentations such as random crop, color jitter, patch cutout, and random convolutions can enable simple RL algorithms to match and even outperform complex state-of-the-art methods across common benchmarks in terms of data-efficiency, generalization, and wall-clock speed. We find that data diversity alone can make agents focus on meaningful information from high-dimensional observations without any changes to the reinforcement learning method. On the DeepMind Control Suite, we show that RAD is state-of-the-art in terms of data-efficiency and performance across 15 environments. We further demonstrate that RAD can significantly improve the test-time generalization on several OpenAI ProcGen benchmarks. Finally, our customized data augmentation modules enable faster wall-clock speed compared to competing RL techniques.</p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Task:</td>
+        <td>SEMANTIC SEGMENTATION</td>
+        <td>DECISION MAKING</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Implementation:</td>
+        <td>No code implementation yet</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>Authors:</td>
+        <td>Roman Voeikov</td>
+        <td>Nikolay Falaleev</td>
+        <td>Ruslan Baikulov</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <p>Read the paper <a href="https://arxiv.org/pdf/2004.09927">here</a></p>
+</blockquote>
+
+<hr />
+
+<p>That’s it folks. These arew what I’ve found most interesting in the past week.</p>
+
+<p>Which paper interests you? Which would you like to see imlemented in an easily accessible colab notebook? Let me know in the comments below!</p>
+
+<p>Until next time, stay safe!</p>
