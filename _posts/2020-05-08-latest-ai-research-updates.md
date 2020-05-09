@@ -7,7 +7,7 @@ categories: [Trending Research papers]
 permalink: /papers/:year/:month/:day/:title
 ---
 
-# Latest in AI Research - Week 18
+# Latest in AI Research - Week 19
 
 ![R for Research](https://media.giphy.com/media/26FPC5oAdfeFPkQQE/giphy.gif)
 
