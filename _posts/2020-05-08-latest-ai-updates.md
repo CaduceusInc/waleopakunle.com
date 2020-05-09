@@ -2,7 +2,7 @@
 toc: true
 comments: true
 author: Wale
-image: /images/2020-04-21-latest-in-ai/ours_1.gif
+image: /images/latest-in-ai/convlayer_overview_demo.gif
 categories: [Trending Research papers]
 permalink: /papers/:year/:month/:day/:title
 ---
