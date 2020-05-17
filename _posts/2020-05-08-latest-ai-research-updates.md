@@ -11,7 +11,7 @@ permalink: /papers/:year/:month/:day/:title
 
 ![R for Research](https://media.giphy.com/media/26FPC5oAdfeFPkQQE/giphy.gif)
 
-Hey there! It's another Tuesday, and here is a collation of what's new in AI research.
+Hey there! Here is a collation of what's new in AI research.
 
 * > Title:  CNN Explainer - Learning Convolutional Neural Networks with Interactive Visualization
 
@@ -131,7 +131,7 @@ Hey there! It's another Tuesday, and here is a collation of what's new in AI res
 
 * > Title:  TTNet - Real-time temporal and spatial video analysis of table tennis
 
-![rlad](/images/latest-in-ai/RLAD.png)
+![rlad](/images/latest-in-ai/ttnet.png)
 
 > Abstract: Learning from visual observations is a fundamental yet challenging problem in reinforcement learning (RL). Although algorithmic advancements combined with convolutional neural networks have proved to be a recipe for success, current methods are still lacking on two fronts: (a) sample efficiency of learning and (b) generalization to new environments. To this end, we present RAD: Reinforcement Learning with Augmented Data, a simple plug-and-play module that can enhance any RL algorithm. We show that data augmentations such as random crop, color jitter, patch cutout, and random convolutions can enable simple RL algorithms to match and even outperform complex state-of-the-art methods across common benchmarks in terms of data-efficiency, generalization, and wall-clock speed. We find that data diversity alone can make agents focus on meaningful information from high-dimensional observations without any changes to the reinforcement learning method. On the DeepMind Control Suite, we show that RAD is state-of-the-art in terms of data-efficiency and performance across 15 environments. We further demonstrate that RAD can significantly improve the test-time generalization on several OpenAI ProcGen benchmarks. Finally, our customized data augmentation modules enable faster wall-clock speed compared to competing RL techniques.
 
