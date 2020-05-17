@@ -77,7 +77,7 @@ The dataset includes 5,000 pictures of 525 people wearing masks and 90,000 image
 
 {% include youtube.html content="https://youtu.be/Cs_j-oNwGgg" %}
 
-- [Cooperation Instead of Competition: Harvard & Microsoft Research Optimizes AI-Human Teamwork]:
+- Cooperation Instead of Competition: Harvard & Microsoft Research Optimizes AI-Human Teamwork:
 
   - The paper identifies a possible area for future research on human-machine cooperation as an optimization of team performance when interactions extend beyond the current level of querying humans for answers. This could include settings with more complex, interleaved interactions and those with different levels of human initiative and machine autonomy.
 
@@ -93,7 +93,8 @@ The dataset includes 5,000 pictures of 525 people wearing masks and 90,000 image
 # You need to install the contrib version of opencv, otherwise you wont have access to some
 # features such as video editing/manipulation.
 # This was what worked for me after several hours of hair pulling.
-# you can use any python version you want actually. I prefer to be one step behind. Why? BUGSSSS
+# you can use any python version you want actually. I prefer to be one step behind the latest release.
+# Why, you ask? BUGSSSS!! Bugs, thats why!
 C:\Users\xyz> conda create -n flask-env flask python=3.7
 # activate the environment
 C:\Users\xyz> conda activate flask-env
@@ -111,9 +112,13 @@ Heard of [Flask-Migrate](https://flask-migrate.readthedocs.io/en/latest/)?
 
 No?
 
-Well, you probably don't use Flask very often. In that case, I would highly recommend this book if you're looking to get started, or solidify your foundation, like me. If you don't want to buy it, you can simply follow on his site [here](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world). It's almost the same as the book. Alternatively, check out the [code base](https://github.com/miguelgrinberg/flasky). You can get the code for each chapter of the book by 'git check'-ing the branch tags.
+Seriously?
+
+Well, you probably don't use Flask very often if that's the case. Let's change that. I would highly recommend this book if you're looking to get started, or solidify your foundation, like I am. If you can't afford to buy it, you can simply follow on his site [here](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world). It's almost the same as the book. Alternatively, check out the [code base](https://github.com/miguelgrinberg/flasky). You can get the code for each chapter of the book by 'git check'-ing the branch tags for each chapter. It's all very efficiently managed by Miguel.
 
 Trust me, this guy has the most educative resources by far, when it comes to flask (to the best of my very limited knowledge, of course). But seriously, his book is really awesome. Highly, highly recommend.
+
+Thanks Miguel!
 
 - Tutorials
   - I also went through this cool tutorial on converting old footage to 4K + 60fps + colorized with AI. You may have guessed it. They threw Jason's (@citnaj on twitter) DeOldify algorithm into the mix. Really cool.
