@@ -9,7 +9,7 @@ permalink: /news/:year/:month/:day/:title
 
 # Previously in the AI field...
 
-Hey folks! Here are some of the things I've come across this past week in the AI field. Hope this can be informative/interesting in some way to the geeks who read to the end. *wink*
+Hey folks! Here are some of the things I came across this past week in the AI field. Hope this can be informative/interesting in some way to the geeks who read to the end. *wink*
 
 ## New Open Source Tools
 
