@@ -3,15 +3,17 @@ toc: true
 comments: true
 author: Wale
 image: https://media.giphy.com/media/DcSE3dQGqAzE4/giphy.gif
-categories: [Weekly recap]
+categories: [Weekly Recap]
 permalink: /news/:year/:month/:day/:title
 ---
 
 # LAST WEEK IN AI
 
+Hey folks! Here are some of the things I've come across this past week in the AI field. Hope this can be informative/interesting in some way to the geeks who read to the end. *wink*
+
 ## New Open Source Tools
 
-- The coolest I came across this week, by far, was [deon](https://deon.drivendata.org/); a cli tool for adding an ethics checklist to your data science project. It's cool because it shows that the community is really taking the issue of ethics and bias in machine learning algorithms into cognisance.
+- The coolest I came across this week, by far, was [deon](https://deon.drivendata.org/); a cli tool for adding an ethics checklist to your data science project. It's cool because it shows that the community is really taking the issue of ethics and bias in machine learning algorithms into cognizance.
 
 - Detectron2: A PyTorch based modular object detection library. They made it available as a library so it can just be imported into your project. This is a really cool way to make an opensource contribution!
 Detectron2 has new features such as panoptic segmentation, densepose, Cascade R-CNN, rotated bounding boxes, etc. You can read more about it on their [blog](https://ai.facebook.com/blog/-detectron2-a-pytorch-based-modular-object-detection-library-/) or check out the [code base](https://github.com/facebookresearch/detectron2).
@@ -22,6 +24,10 @@ Detectron2 has new features such as panoptic segmentation, densepose, Cascade R-
 
 - Japanese Company, Preferred Networks, releases their [First PyTorch Library](https://github.com/pfnet/pytorch-pfn-extras). This library will help in Distributed snapshots (reducing the costs of implementing distributed deep learning with automated backup, loading, and generation management of snapshots). Other features include automatic inference of parameter sizes (easier network definitions by automatically inferring the sizes of linear or convolution layer parameters via input sizes) and implementations of convenient extensions and reporters. Let's hope they successfully merge  these features into the PyTorch base build.
 
+- Check out the [ML-Agents Unity Package v1.0](https://github.com/Unity-Technologies/ml-agents)
+
+{% include youtube.html content="https://youtu.be/yIChlf9hcRE" %}
+
 ---
 
 ## Cool Projects
@@ -30,7 +36,7 @@ Detectron2 has new features such as panoptic segmentation, densepose, Cascade R-
 
 - [MedSeg.ai](https://www.medseg.ai/) uses a segmentation model to analyze CT scans. It's free to use, but not openSource, unfortunately.
 
-- [A Multi-Language Sentiment Analysis using flask API](https://github.com/amrha/MLSA) using using a catboost model trained on the sentement140 kaggel dataset.
+- [A Multi-Language Sentiment Analysis tool using flask API](https://github.com/amrha/MLSA) using using a catboost model trained on the sentement140 kaggel dataset.
 
 - [Basketball analysis API](https://github.com/chonyy/AI-basketball-analysis) built with flask, tensorflow and opencv. Try it out for yourselves [here](https://ai-basketball-analysis.herokuapp.com/)
 
@@ -40,13 +46,11 @@ Detectron2 has new features such as panoptic segmentation, densepose, Cascade R-
 
 ## New Events
 
-1. Competition:
+- Competition:
+  - [The Facebook/Data-Driven "Hateful Memes" Competition](https://www.drivendata.org/competitions/64/hateful-memes/). The goal is to create an algorithm that identifies multimodal hate speech in internet memes.
 
-- [The Facebook/Data-Driven "Hateful Memes" Competition](https://www.drivendata.org/competitions/64/hateful-memes/). The goal is to create an algorithm that identifies multimodal hate speech in internet memes.
-
-1. Conferences:
-
-- [Virtual Microsoft build](https://mybuild.microsoft.com/).
+- Conferences:
+  - [Virtual Microsoft build](https://mybuild.microsoft.com/).
 
 ---
 
@@ -61,43 +65,32 @@ The dataset includes 5,000 pictures of 525 people wearing masks and 90,000 image
 
 - Springer has made 65 machine-learning related books available for free... for now. Check out the full list [here](https://towardsdatascience.com/springer-has-released-65-machine-learning-and-data-books-for-free-961f8181f189)
 
-- My Papers of the week go to:
+- Papers I read this week:
 
-1. [Learning concepts with enery functions](https://openai.com/blog/learning-concepts-with-energy-functions/) :
+  - [Learning concepts with enery functions](https://openai.com/blog/learning-concepts-with-energy-functions/) :
 
     > Energy-functions are typically a mere afterthought in current machine learning. A core function of the Energy - its smoothness - is usually not exploited at inference time. This paper takes a stab at it. Inferring concepts, world states, and attention masks via gradient descent on a learned energy function leads to an interesting framework with many possibilities.
 
-- paper: [arxiv](https://arxiv.org/abs/1811.02486)
-- blog:  [openai](https://openai.com/blog/learning-concepts-with-energy-functions/)
-- video: [Watch explanatory video on youtube](https://youtu.be/Cs_j-oNwGgg), or right here:
+  - paper: [arxiv](https://arxiv.org/abs/1811.02486)
+  - blog:  [openai](https://openai.com/blog/learning-concepts-with-energy-functions/)
+  - video: [Watch explanatory video on youtube](https://youtu.be/Cs_j-oNwGgg), or right here:
 
 {% include youtube.html content="https://youtu.be/Cs_j-oNwGgg" %}
 
-1. [Cooperation Instead of Competition: Harvard & Microsoft Research Optimizes AI-Human Teamwork]:
+- [Cooperation Instead of Competition: Harvard & Microsoft Research Optimizes AI-Human Teamwork]:
 
-> The paper identifies a possible area for future research on human-machine cooperation as an optimization of team performance when interactions extend beyond the current level of querying humans for answers. This could include settings with more complex, interleaved interactions and those with different levels of human initiative and machine autonomy.
+  - The paper identifies a possible area for future research on human-machine cooperation as an optimization of team performance when interactions extend beyond the current level of querying humans for answers. This could include settings with more complex, interleaved interactions and those with different levels of human initiative and machine autonomy.
 
-- paper: [arxiv](https://arxiv.org/pdf/2005.00582.pdf)
-- blog: [Quick read](https://medium.com/syncedreview/cooperation-instead-of-competition-harvard-microsoft-research-optimizes-ai-human-teamwork-4f7f89bbbf6f)
+  - paper: [arxiv](https://arxiv.org/pdf/2005.00582.pdf)
+  - blog: [Quick read](https://medium.com/syncedreview/cooperation-instead-of-competition-harvard-microsoft-research-optimizes-ai-human-teamwork-4f7f89bbbf6f)
 
-1. Tutorials:
+- Books: This past week, I've been joggling reading two books:
+  - Learning OpenCV 4 Computer Vision with Python 3 Joseph Howse and Joe Minichino. You can subscribe to read it on [Packt](https://www.packtpub.com/data/learning-opencv-4-computer-vision-with-python-3-third-edition), or simply go through the code for the book [here](https://github.com/PacktPublishing/Learning-OpenCV-4-Computer-Vision-with-Python-Third-Edition) if you have a good background in Python. I settled on this book after a lot of consideration and exploring other books on OpenCV. What makes it stand out is the detailed explanations and the fact that it is in Python, rather than C++. No regrets so far.
 
-- Converting old footage to 4K + 60fps + colorized with AI
-
-{% include youtube.html content="https://www.youtube.com/watch?v=h-zNjxY-m90" %}
-
-Follow-up for an inkling on how this may be scaled in real-life: [NVIDIA's Shield](https://blogs.nvidia.com/blog/2020/02/03/what-is-ai-upscaling/).
-
-1. Books: This past week, I've been joggling reading two books:
-
-- Learning OpenCV 4 Computer Vision with Python 3 Joseph Howse and Joe Minichino. You can subscribe to read it on [Packt](https://www.packtpub.com/data/learning-opencv-4-computer-vision-with-python-3-third-edition), or simply go through the code for the book [here](https://github.com/PacktPublishing/Learning-OpenCV-4-Computer-Vision-with-Python-Third-Edition) if you have a good background in Python.
-I settled on this book after a lot of consideration and exploring other books on OpenCV. What makes it stand out is the detailed explanations and the fact that it is in Python, rather than C++. No regrets so far.
-
-{% include alert.html text="I had tremendous dificulty installing Python opencv-contrib on my windows computer using anaconda. If you experience this issue,  you may have to settle for OpenCV3. All examples in the book run as per normal so far. You can use the code below to install it in a conda environment." %}
-
+ {% include alert.html text="I had tremendous dificulty installing Python opencv-contrib on my windows computer using anaconda. If you experience this issue,  you may have to settle for OpenCV3. All examples in the book run as per normal so far. You can use the code below to install it in a conda environment." %}
 
 ```shell
-# You need to install the contrib version of opencv, otherwise you wont have access to some 
+# You need to install the contrib version of opencv, otherwise you wont have access to some
 # features such as video editing/manipulation.
 # This was what worked for me after several hours of hair pulling.
 # you can use any python version you want actually. I prefer to be one step behind. Why? BUGSSSS
@@ -122,6 +115,11 @@ Well, you probably don't use Flask very often. In that case, I would highly reco
 
 Trust me, this guy has the most educative resources by far, when it comes to flask (to the best of my very limited knowledge, of course). But seriously, his book is really awesome. Highly, highly recommend.
 
+- Tutorials
+  - I also went through this cool tutorial on converting old footage to 4K + 60fps + colorized with AI. You may have guessed it. They threw Jason's (@citnaj on twitter) DeOldify algorithm into the mix. Really cool.
+
+  {% include youtube.html content="https://youtu.be/h-zNjxY-m90" %}
+  
 ---
 
 ## AI developments
@@ -137,4 +135,7 @@ Trust me, this guy has the most educative resources by far, when it comes to fla
 - [This AI can simulate an economy millions of times to create fairer tax policy](https://www.technologyreview.com/2020/05/05/1001142/ai-reinforcement-learning-simulate-economy-fairer-tax-policy-income-inequality-recession-pandemic/).
 
 ---
-That's it folks. That's a recap of all AI related content I came across this week. Happy exploration.
+
+That's it folks. That's a recap of all AI related content I came across this week. What did I miss? What else is new in the AI field? Let me know in the comments!
+
+Happy exploration.
