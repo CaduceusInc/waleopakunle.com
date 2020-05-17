@@ -36,7 +36,7 @@ Detectron2 has new features such as panoptic segmentation, densepose, Cascade R-
 
 - [MedSeg.ai](https://www.medseg.ai/) uses a segmentation model to analyze CT scans. It's free to use, but not openSource, unfortunately.
 
-- [A Multi-Language Sentiment Analysis tool using flask API](https://github.com/amrha/MLSA) using a catboost model trained on the sentement140 kaggel dataset.
+- [A Multi-Language Sentiment Analysis tool using flask API](https://github.com/amrha/MLSA) using a catboost model trained on the sentement140 kaggle dataset.
 
 - [Basketball analysis API](https://github.com/chonyy/AI-basketball-analysis) built with flask, tensorflow and opencv. Try it out for yourselves [here](https://ai-basketball-analysis.herokuapp.com/)
 
