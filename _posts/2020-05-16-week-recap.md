@@ -2,7 +2,7 @@
 toc: true
 comments: true
 author: Wale
-image: /images/2020-03-09-matting/media/new-research.png
+image: https://media.giphy.com/media/DcSE3dQGqAzE4/giphy.gif
 categories: [Weekly recap]
 permalink: /news/:year/:month/:day/:title
 ---
