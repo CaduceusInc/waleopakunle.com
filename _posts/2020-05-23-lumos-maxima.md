@@ -154,7 +154,7 @@ The youtube 8M dataset is a large scale labeled video dataset that has 6.1 milli
 
   - [AI Ethics in China](https://www.nesta.org.uk/report/chinas-approach-to-ai-ethics/){:target="_blank"}
   > "... It is therefore surprising that the western misconception that China lacks debate around AI ethics seems to prevail, when in fact: i) existing Chinese AI principles largely align with global ones; ii) Chinese discussions enjoy unprecedented government support; and iii) the country is already investigating the technical and social implementation of these principles by exploring how they interact with its distinct cultural heritage.
-  > In this essay I explore AI ethics in China through the lens of some of the key topics discussed in depth in the other essays on this collection – education, healthcare, smart cities and social credit systems – to consider which, if any, ethical issues are unique to China and which should be seen as global concerns."
+  > In this essay I explore AI ethics in China through the lens of some of the key topics discussed in depth in the other essays on this collection – education, healthcare, smart cities and social credit systems – to consider which, if any, ethical issues are unique to China and which should be seen as global concerns." - Danit Gal, *Technology advisor to the UN Secretary General’s High-level Panel on Digital Cooperation and associate fellow at the Leverhulme Centre for the Future of Intelligence at the University*
 
   - [Microsoft responsible machine learning capabilities build trust in AI systems, developers say](https://blogs.microsoft.com/ai/azure-responsible-machine-learning/?utm_source=msr-social). Read this article by John Roach to find out what the industry, particularly Micrsosft, is doing regarding ethical AI and model interpretability. Going further in the rabbit hole, I discovered they now have modules that cater for interpretability which I didn't notice when I was using the service last year. You can check that out in the official [Azure Machine Learning docs](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-machine-learning-interpretability-aml){:target="_blank"}.
   For an example of how to use this, checkout [this repo](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/explain-model?ocid=AID2463683&wt.mc_id=ai-c9-sejuare){:target="_blank"}.
@@ -213,12 +213,10 @@ The youtube 8M dataset is a large scale labeled video dataset that has 6.1 milli
 - Nuggets:
   - [Deploying a Go application with Docker images on Kubernetes](https://www.youtube.com/watch?v=-wr_lNd6y84&feature=youtu.be){:target="_blank"}.
 
-  - [Live Streaming with Microsoft Azure](https://medium.com/@dsayed/live-streaming-with-microsoft-azure-eb6408d31ed?source=emailShare-ebbd27871d55-1590193118&_branch_match_id=772184047820144492){:target="_blank"}.
-
   - [The Only Step-by-Step Guide You’ll Need to Build a Web Scraper With Python](https://medium.com/better-programming/the-only-step-by-step-guide-youll-need-to-build-a-web-scraper-with-python-e79066bd895a)
 
   - [A Visual Survey of Data Augmentation in NLP](https://amitness.com/2020/05/data-augmentation-for-nlp/){:target="_blank"}
-  > "...I was curious if there were attempts at developing augmentation techniques for NLP and explored the existing literature. In this post, I will give an overview of the current approaches being used for text data augmentation based on my findings.."
+  > "...I was curious if there were attempts at developing augmentation techniques for NLP and explored the existing literature. In this post, I will give an overview of the current approaches being used for text data augmentation based on my findings.." - Amit Chaudhary, *Machine Learning Engineer at Fusemachines*
 
   - [Everything you need to know about Auto-Deeplab: Google’s latest on Segmentation](https://towardsdatascience.com/everything-you-need-to-know-about-auto-deeplab-googles-latest-on-segmentation-181425d17cd5){:target="_blank"}
 
