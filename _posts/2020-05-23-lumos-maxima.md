@@ -13,8 +13,6 @@ Hey folks, I am back with a recap of last week in AI! This week, I decided to ad
 
 Working on feedback from last week, all links now open in new tabs. I will be implementing that for all links going forward. Thanks for the feedback, and I hope you enjoy a better reading experience.
 
- {% include alert.html text="There are no Ads whatsoever on Waleopakunle.com at this time." %}
-
 ---
 T.O.C
 
@@ -114,21 +112,27 @@ On June 22, WWDC20 takes off. Get ready for the first global, all-online WWDC by
 ---
 
 - [Flickr 30k Dataset](https://www.kaggle.com/hsankesara/flickr-image-dataset){:target="_blank"}: The Flickr 30k dataset has over 30,000 images, and each image is labeled with different captions. This dataset is used to build an image caption generator. And this dataset is an upgraded version of Flickr 8k used to build more accurate models.
+
 **Possible project idea**:  You can train a deep learning model that is capable of analysing and extracting features from the image and generate as english sentence that describes the image. Next time when your friend send you an image and goes, "Caption this", you can ask your model what it thinks and get back to your friend with the machine caption.
 
 - [Chatbot Intents Dataset](https://github.com/katanaml/katana-assistant/blob/master/mlbackend/intents.json){:target="_blank"}
 The dataset for a chatbot is a JSON file that has disparate tags like goodbye, greetings, pharmacy_search, hospital_search, etc. Every tag has a list of patterns that a user can ask, and the chatbot will respond according to that pattern. The dataset is perfect for understanding how chatbot data works.
+
 **Possible Project Idea**: You can build a chatbot or understand the working of a chatbot by modifying and expanding the data with your observations. To build a Chatbot of your own, you need to have a good knowledge of Natural language processing concepts.
 [This article](https://dzone.com/articles/python-chatbot-project-build-your-first-python-pro){:target="_blank"} from DZone could help you get started with that.
 
 - [Mall Customers Dataset](https://www.kaggle.com/shwetabh123/mall-customers){:target="_blank"}
 The Mall customers dataset holds the details about people visiting the mall. The dataset has an age, customer id, gender, annual income, and spending score. It gains insights from the data and divides the customers into different groups based on their behaviors.
+
 **Possible Project Idea**: Segment the customers based on their gender, age, interest. It is useful in customized marketing. Customer segmentation is an important practice of dividing customers based on individual groups that are similar.
+
 [This article](https://data-flair.training/blogs/r-data-science-project-customer-segmentation/){:target="_blank"} could help you get started with customer segmentation with R or [this one](https://towardsdatascience.com/customer-segmentation-analysis-with-python-6afa16a38d9e){:target="_blank"}, if you speak the language of the gods.
 
 - [Youtube 8M Dataset](https://research.google.com/youtube8m/){:target="_blank"}
 The youtube 8M dataset is a large scale labeled video dataset that has 6.1 million Youtube video ids, 350,000 hours of video, 2.6 billion audio/visual features, 3862 classes, and 3 avg labels per video. It is used for video classification purposes.
+
 **Project Idea**: Video classification can be done by using the dataset, and the model can describe what video is about. A video takes a series of inputs to classify in which category the video belongs. This would be a rather involved project, but if you are interested, [this paper](https://arxiv.org/pdf/1609.08675v1.pdf){:target="_blank"} could help get you started, along with the following implementations:
+
   1. [google/youtube-8m](https://github.com/google/youtube-8m){:target="_blank"}
 
   1. [AKASH2907/Content-based-Video-Recommendation](https://github.com/AKASH2907/Content-based-Video-Recommendation){:target="_blank"}
