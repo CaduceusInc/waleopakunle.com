@@ -103,8 +103,6 @@ Below is a short video that summarises this awesome piece of work. You will get 
 
 This code has been used in [this AR Project by Cyril](https://github.com/cyrildiagne/ar-cutpaste){:target="_blank"}
 
-{% twitter https://twitter.com/i/status/1256916982764646402 maxwidth=500 %}
-
 
 ---
 ---
