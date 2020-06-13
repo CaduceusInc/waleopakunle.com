@@ -46,9 +46,6 @@ minima:
 # Set this to true to get LaTeX math equation support
 use_math: true
 
-# For formspree
-form_url: xyypbdqn
-
 # Set this to true to display the summary of your blog post under your title on the Home page.
 show_description: true
 
@@ -57,11 +54,6 @@ show_image: true
 
 # Set this to true to display tags on each post
 show_tags: true
-
-# Set collection for new pages and better post display control
-collections:
-  news:
-    output: true
 
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics: UA-160183942-1
