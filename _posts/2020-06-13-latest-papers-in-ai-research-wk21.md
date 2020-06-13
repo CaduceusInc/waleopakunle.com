@@ -4,7 +4,7 @@ comments: true
 author: Wale
 image: /images/2020-06-13-lpiair-wk21/oneshotSegmentation.gif
 categories: [Trending Research papers]
-permalink: /news/:year/:month/:day/:title
+permalink: /papers/:year/:month/:day/:title
 ---
 
 # Latest in AI Research - Week 21
