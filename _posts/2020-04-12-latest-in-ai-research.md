@@ -4,7 +4,7 @@ comments: true
 author: Wale
 image: /images/2020-03-09-matting/media/new-research.png
 categories: [Trending Research papers]
-permalink: /papers/:year/:month/:day/:title
+permalink: /news/:year/:month/:day/:title
 ---
 
 Here is a compilation of my reading list for the past week as well as a personal completion tracker.

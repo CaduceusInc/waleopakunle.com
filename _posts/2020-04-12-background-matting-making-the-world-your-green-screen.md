@@ -3,7 +3,7 @@ toc: true
 comments: true
 author: Wale
 image: /images/2020-03-09-matting/media/segmentation-and-matting-difference.png
-categories: [Research paper, GANs]
+categories: [Research paper digest, GANs]
 permalink: /papers/:year/:month/:day/:title
 ---
 
