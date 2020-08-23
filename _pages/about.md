@@ -8,24 +8,28 @@ permalink: /about/
 {% include google-analytics.html %}
 {% endif %}
 
-##  **Introduction**
+## **Introduction**
 
-Hi there! In case it was not obvious enough from all the name tags, my name is Wale Opakunle.
-I am a deep learning practitioner, machine learning engineer and data journalist, well, most of the time. 
-Other times, I am just a learning machine confounded by the velocity at which the tech space is accelerating. 
+{% include embed_image.html content= "/images/me.jpg" %}
+
+Hi there! My name is Wale Opakunle.
+I am a deep learning practitioner, data engineer and data journalist.
+Other times, I am just a learning machine confounded by the velocity at which the tech space is accelerating.
 
 I reside in Lagos, Nigeria and I have a first degree in Electrical and Electronics Engineering from the University of Lagos, right down by the Lagos lagoon.
 
-It was there, in my final year in 2018 that I awoke my passion for artificial intelligence. I saw, and still see, numerous untapped paths in which the technology could be harnessed to change my country. In light of this, I began to voraciously read, watch and listen to all materials that so much as mentioned how to architect, produce and distribute products embedded with artificial intelligence.
-
-I dare say that I am still a long way of from understanding all the intricacies - if that is even a thing.
-However, I have come to learn a whole lot by putting in the effort and I am determined to give back to the community that has helped me grow so much. 
-
 It is my deepest desire that I create an awareness of the possibilities that developments in artificial intelligence affords us and by so doing, infect as many as possible within my community with this passion and knowledge, that we may bring about the change we so much desire to see in my country, for ourselves and for posterity.
 
---- 
+---
 
-##  **Vision for my blog**
+## **Certifications**
+
+{% include badges.html content1= "647b4d0e-282a-426f-94e4-cdaa7c1c4898" content2= "7f27e3ca-61c6-43d2-9930-3090d10e18a8"
+content3= "d7492141-e15d-4888-9bd0-dfba7a7f4dec" content4= "e4597a23-d1c4-4dde-b9e3-20e4bb97bb79" %}
+
+---
+
+## **Vision for my blog**
 
 In light of the above, my blog is dedicated to do the following:
 
@@ -38,7 +42,5 @@ In light of the above, my blog is dedicated to do the following:
 1. Spurn the audience to contribute to building AI tools (based on all discussions above) for the improvement of Nigeria.
 
 1. Contribute to the decentralization and dissemination of AI knowledge in Nigeria.
-
-
 
 Should our interests and passions align, and you wish to collaborate, please do not hesitate to reach out to me.

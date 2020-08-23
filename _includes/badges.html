@@ -1,0 +1,56 @@
+<head>
+<style>
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+</style>
+
+</head>
+
+
+{% assign badge_id1 = include.content1 %}
+{% assign badge_id2 = include.content2 %}
+{% assign badge_id3 = include.content3 %}
+{% assign badge_id4 = include.content4 %}
+<div class="row">
+    <div class="column">
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="{{badge_id1}}"
+        data-share-badge-host="https://www.youracclaim.com"></div>
+        <script type="text/javascript" 
+        async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+    </div>
+
+    <div class="column">
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="{{badge_id2}}"
+        data-share-badge-host="https://www.youracclaim.com"></div>
+        <script type="text/javascript" 
+        async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+    </div>
+
+    <div class="column">
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="{{badge_id3}}"
+        data-share-badge-host="https://www.youracclaim.com"></div>
+        <script type="text/javascript" 
+        async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+    </div>
+
+    <div class="column">
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="{{badge_id4}}"
+        data-share-badge-host="https://www.youracclaim.com"></div>
+        <script type="text/javascript" 
+        async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+    </div>
+</div> 
+
+
