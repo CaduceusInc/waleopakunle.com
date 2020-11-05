@@ -1,0 +1,21 @@
+WRITING TOPIC IDEAS - REDDIT
+
+- The biggest issues when outsourcing your data annotations
+Reference: https://www.reddit.com/r/deeplearning/comments/jgcydb/to_those_working_in_ai_business_the_biggest/
+
+
+
+- Few shot learning 
+
+Reference: https://www.reddit.com/r/deeplearning/comments/jfp5fh/what_is_fewshot_learning/
+
+- Building fairer systems
+References: 1. https://hackernoon.com/10-ways-machine-learning-practitioners-can-build-fairer-systems-9p213t7l?source=rss
+
+
+News:
+- https://phys.org/news/2020-10-ai-photonics-easier-earths.html
+- Many-To-Many Multilingual Model That Translates 100×100 Languages
+Reference: 1. https://www.marktechpost.com/2020/10/20/facebook-ai-introduces-m2m-100-the-first-many-to-many-multilingual-model-that-translates-100x100-languages-without-relying-on-english-data/
+ 2. https://github.com/pytorch/fairseq/tree/master/examples/m2m_100
+3. https://www.reddit.com/r/artificial/comments/jerjoq/facebook_ai_introduces_m2m100_the_first/
