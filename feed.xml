@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://waleopakunle.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://waleopakunle.com/" rel="alternate" type="text/html" /><updated>2020-11-05T09:15:10-06:00</updated><id>https://waleopakunle.com/feed.xml</id><title type="html">AI Tech Blog</title><subtitle>A chronicle of my passion for developing witty computers.</subtitle><entry><title type="html">Stack Gan Exposition</title><link href="https://waleopakunle.com/2020/11/04/STACK-GAN-Exposition.html" rel="alternate" type="text/html" title="Stack Gan Exposition" /><published>2020-11-04T00:00:00-06:00</published><updated>2020-11-04T00:00:00-06:00</updated><id>https://waleopakunle.com/2020/11/04/STACK-GAN-Exposition</id><content type="html" xml:base="https://waleopakunle.com/2020/11/04/STACK-GAN-Exposition.html">&lt;h1 id=&quot;face-aging-using-conditional-gan&quot;&gt;Face Aging Using Conditional GAN&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://waleopakunle.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://waleopakunle.com/" rel="alternate" type="text/html" /><updated>2020-11-16T21:14:48-06:00</updated><id>https://waleopakunle.com/feed.xml</id><title type="html">AI Tech Blog</title><subtitle>A chronicle of my passion for developing witty computers.</subtitle><entry><title type="html">Reflex</title><link href="https://waleopakunle.com/papers/2020/11/17/reflex" rel="alternate" type="text/html" title="Reflex" /><published>2020-11-17T00:00:00-06:00</published><updated>2020-11-17T00:00:00-06:00</updated><id>https://waleopakunle.com/papers/2020/11/17/reflex</id><content type="html" xml:base="https://waleopakunle.com/papers/2020/11/17/reflex">&lt;h1 id=&quot;prrr&quot;&gt;Prrr…&lt;/h1&gt;
+
+&lt;p&gt;Tuesday.&lt;/p&gt;
+
+&lt;p&gt;I’m sitting here on a workday, at 3am, considering a lot of things.&lt;/p&gt;
+
+&lt;p&gt;First of all, I am wondering how I managed to make it to 3am while wide awake. I’d made a commitment to be asleep by no later than midnigt today. There are some sleepy battles that black coffee just wont fight these days.&lt;/p&gt;
+
+&lt;p&gt;My eyes wondered to my phone’s screen and I notice the receipt for my purchse of this domain name. I then remember how long it took me to set this platform up; the sentiment behinf it all bacj then… I inevitably succumb to nostaligia. I miss writing. I miss sharing what I learn and chalenging myself to find out even more just because of the thril and rush this brings me. The satisfying feeling of transfering information and creating understanding.&lt;/p&gt;
+
+&lt;p&gt;You see, I have been meaning to write. I have spent what must be countless hours ruminating on what to talk about in 2020, but the trut is this has been quite a year and it has left it’s historical imprint upon us all.&lt;/p&gt;
+
+&lt;p&gt;2020.&lt;/p&gt;
+
+&lt;p&gt;What a year. (Probably a story for another day?)&lt;/p&gt;
+
+&lt;p&gt;I am starting a new writing style experiment that I hope will lead me to write more.
+I will write out all my drafts in the public eye of the internet and give myself an ultimatum to get it done.&lt;/p&gt;
+
+&lt;p&gt;I am too sleep deprived to work out the details right now, but this is my initial post for said experiment.&lt;/p&gt;
+
+&lt;p&gt;TBC….&lt;/p&gt;</content><author><name>Wale</name></author><summary type="html">Prrr…</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://waleopakunle.com/images/2020-06-13-lpiair-wk21/oneshotSegmentation.gif" /><media:content medium="image" url="https://waleopakunle.com/images/2020-06-13-lpiair-wk21/oneshotSegmentation.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Stack Gan Exposition</title><link href="https://waleopakunle.com/2020/11/16/STACK-GAN-Exposition.html" rel="alternate" type="text/html" title="Stack Gan Exposition" /><published>2020-11-16T00:00:00-06:00</published><updated>2020-11-16T00:00:00-06:00</updated><id>https://waleopakunle.com/2020/11/16/STACK-GAN-Exposition</id><content type="html" xml:base="https://waleopakunle.com/2020/11/16/STACK-GAN-Exposition.html">&lt;h1 id=&quot;face-aging-using-conditional-gan&quot;&gt;Face Aging Using Conditional GAN&lt;/h1&gt;
 
 &lt;p&gt;StackGAN is a two-stage network. Each stage has two generators and two discriminators. StackGAN is made up of many networks, which are as follows:&lt;/p&gt;
 
@@ -17,11 +38,11 @@
 
 &lt;p&gt;The sole purpose of the text encoder network is to convert a text description (t) to a text embedding&lt;/p&gt;
 
-&lt;p&gt;(&lt;img src=&quot;assets/img/2020-11-04-STACK-GAN-Exposition/media/image1.png&quot; alt=&quot;http://localhost:5001/assets/b202e2a1-36da-4851-8a99-1cf84585df1d.png&quot; /&gt;). I won’t train the text encoder network. I will be working with pre-trained text embeddings, but you can train yours by using the steps discussed in this paper: &lt;a href=&quot;https://arxiv.org/pdf/1605.05395.pdf&quot;&gt;https://arxiv.org/pdf/1605.05395.pdf&lt;/a&gt;. The text encoder network encodes a sentence to a 1,024-dimensional text embedding. The text encoder network is common to both of the stages&lt;/p&gt;
+&lt;p&gt;(&lt;img src=&quot;assets/img/2020-11-16-STACK-GAN-Exposition/media/image1.png&quot; alt=&quot;http://localhost:5001/assets/b202e2a1-36da-4851-8a99-1cf84585df1d.png&quot; /&gt;). I won’t train the text encoder network. I will be working with pre-trained text embeddings, but you can train yours by using the steps discussed in this paper: &lt;a href=&quot;https://arxiv.org/pdf/1605.05395.pdf&quot;&gt;https://arxiv.org/pdf/1605.05395.pdf&lt;/a&gt;. The text encoder network encodes a sentence to a 1,024-dimensional text embedding. The text encoder network is common to both of the stages&lt;/p&gt;
 
 &lt;p&gt;The conditioning augmentation block&lt;/p&gt;
 
-&lt;p&gt;A &lt;strong&gt;conditioning augmentation&lt;/strong&gt; (&lt;strong&gt;CA&lt;/strong&gt;) network samples random latent variables &lt;img src=&quot;assets/img/2020-11-04-STACK-GAN-Exposition/media/image2.png&quot; alt=&quot;http://localhost:5001/assets/d86d468c-b92c-41c9-83f1-75baf727847c.png&quot; /&gt; from a distribution, which is represented as &lt;img src=&quot;assets/img/2020-11-04-STACK-GAN-Exposition/media/image3.png&quot; alt=&quot;http://localhost:5001/assets/cb774d54-76ee-4c94-89a7-94e8b16c4493.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;conditioning augmentation&lt;/strong&gt; (&lt;strong&gt;CA&lt;/strong&gt;) network samples random latent variables &lt;img src=&quot;assets/img/2020-11-16-STACK-GAN-Exposition/media/image2.png&quot; alt=&quot;http://localhost:5001/assets/d86d468c-b92c-41c9-83f1-75baf727847c.png&quot; /&gt; from a distribution, which is represented as &lt;img src=&quot;assets/img/2020-11-16-STACK-GAN-Exposition/media/image3.png&quot; alt=&quot;http://localhost:5001/assets/cb774d54-76ee-4c94-89a7-94e8b16c4493.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Advantages:&lt;/p&gt;
 
@@ -50,7 +71,7 @@
   &lt;li&gt;
     &lt;p&gt;upsampling&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Face Aging Using Conditional GAN</summary></entry><entry><title type="html">Face Aging Cgan Exposition</title><link href="https://waleopakunle.com/2020/11/04/Face-Aging-cGAN-Exposition.html" rel="alternate" type="text/html" title="Face Aging Cgan Exposition" /><published>2020-11-04T00:00:00-06:00</published><updated>2020-11-04T00:00:00-06:00</updated><id>https://waleopakunle.com/2020/11/04/Face-Aging-cGAN-Exposition</id><content type="html" xml:base="https://waleopakunle.com/2020/11/04/Face-Aging-cGAN-Exposition.html">&lt;h1 id=&quot;face-aging-using-conditional-gan&quot;&gt;Face Aging Using Conditional GAN&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Face Aging Using Conditional GAN</summary></entry><entry><title type="html">Face Aging Cgan Exposition</title><link href="https://waleopakunle.com/2020/11/16/Face-Aging-cGAN-Exposition.html" rel="alternate" type="text/html" title="Face Aging Cgan Exposition" /><published>2020-11-16T00:00:00-06:00</published><updated>2020-11-16T00:00:00-06:00</updated><id>https://waleopakunle.com/2020/11/16/Face-Aging-cGAN-Exposition</id><content type="html" xml:base="https://waleopakunle.com/2020/11/16/Face-Aging-cGAN-Exposition.html">&lt;h1 id=&quot;face-aging-using-conditional-gan&quot;&gt;Face Aging Using Conditional GAN&lt;/h1&gt;
 
 &lt;p&gt;cGANs are a type of GAN that are conditioned on some extra information. We feed the extra information &lt;em&gt;y&lt;/em&gt; to the generator as an additional input layer. In vanilla GANs, there is no control over the category of the generated images. When we add a condition &lt;em&gt;y&lt;/em&gt; to the generator, we can generate images of a specific category, using &lt;em&gt;y&lt;/em&gt;, which might be any kind of data, such as a class label or integer data. Vanilla GANs can learn only one category and it is extremely difficult to architect GANs for multiple categories. A cGAN, however, can be used to generate multi-modal models with different conditions for different categories.&lt;/p&gt;
 
@@ -60,7 +81,7 @@
 
 &lt;p&gt;The training objective function for cGANs can be expressed as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/img/2020-11-04-Face-Aging-cGAN-Exposition/media/image1.png&quot; alt=&quot;http://localhost:5001/assets/115b5d5f-6623-46dc-bed1-e99a6aa5910c.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image1.png&quot; alt=&quot;http://localhost:5001/assets/115b5d5f-6623-46dc-bed1-e99a6aa5910c.png&quot; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;tbody&gt;
@@ -71,7 +92,7 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;The architecture of a cGAN for face aging is slightly more complicated. The Age-cGan consists of four networks: an encoder, the FaceNet, a generator network, and a discriminator network. With the encoder, we learn the inverse mapping of input face images and the age condition with the latent vector &lt;img src=&quot;assets/img/2020-11-04-Face-Aging-cGAN-Exposition/media/image2.png&quot; alt=&quot;http://localhost:5001/assets/577645cb-a80b-4a10-98e8-5cf21f336b77.png&quot; /&gt;. FaceNet is a face recognition network that learns the difference between an input image &lt;em&gt;x&lt;/em&gt; and a reconstructed image &lt;img src=&quot;assets/img/2020-11-04-Face-Aging-cGAN-Exposition/media/image3.png&quot; alt=&quot;http://localhost:5001/assets/a77a78e0-3ea2-4ce3-8f96-deca552c9b9f.png&quot; /&gt;. We have a generator network, which takes a hidden representation consisting of a face image and a condition vector and generates an image. The discriminator network is to discriminate between the real images and the fake images. &lt;/p&gt;
+&lt;p&gt;The architecture of a cGAN for face aging is slightly more complicated. The Age-cGan consists of four networks: an encoder, the FaceNet, a generator network, and a discriminator network. With the encoder, we learn the inverse mapping of input face images and the age condition with the latent vector &lt;img src=&quot;assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image2.png&quot; alt=&quot;http://localhost:5001/assets/577645cb-a80b-4a10-98e8-5cf21f336b77.png&quot; /&gt;. FaceNet is a face recognition network that learns the difference between an input image &lt;em&gt;x&lt;/em&gt; and a reconstructed image &lt;img src=&quot;assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image3.png&quot; alt=&quot;http://localhost:5001/assets/a77a78e0-3ea2-4ce3-8f96-deca552c9b9f.png&quot; /&gt;. We have a generator network, which takes a hidden representation consisting of a face image and a condition vector and generates an image. The discriminator network is to discriminate between the real images and the fake images. &lt;/p&gt;
 
 &lt;p&gt;The problem with cGANs is that they can’t learn the task of inverse mapping an input image &lt;em&gt;x&lt;/em&gt; with attributes &lt;em&gt;y&lt;/em&gt; to a latent vector &lt;em&gt;z.&lt;/em&gt; The solution to this problem is to use an encoder network. We can train an encoder network to approximate the inverse mapping of the input images &lt;em&gt;x.&lt;/em&gt;&lt;/p&gt;
 
@@ -125,7 +146,7 @@
 
 &lt;p&gt;During latent vector optimization, we optimize the encoder network and the generator network simultaneously. The equation we use for latent vector optimization is as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/img/2020-11-04-Face-Aging-cGAN-Exposition/media/image4.png&quot; alt=&quot;http://localhost:5001/assets/98bda784-ced5-4608-8c1d-38477d40cb8f.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image4.png&quot; alt=&quot;http://localhost:5001/assets/98bda784-ced5-4608-8c1d-38477d40cb8f.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;FR is the face recognition network. This equation indicates that the Euclidean distance between the real image and the reconstructed images should be minimal. In this stage, we try to minimize the distance to maximize identity preservation.&lt;/p&gt;</content><author><name></name></author><summary type="html">Face Aging Using Conditional GAN</summary></entry><entry><title type="html">June Papers Digest</title><link href="https://waleopakunle.com/papers/2020/06/21/june-papers-digest" rel="alternate" type="text/html" title="June Papers Digest" /><published>2020-06-21T00:00:00-05:00</published><updated>2020-06-21T00:00:00-05:00</updated><id>https://waleopakunle.com/papers/2020/06/21/june-papers-digest</id><content type="html" xml:base="https://waleopakunle.com/papers/2020/06/21/june-papers-digest">&lt;h1 id=&quot;latest-in-ai-research---june-2020&quot;&gt;Latest in AI Research - June 2020&lt;/h1&gt;
 
@@ -2786,353 +2807,4 @@ By modifying each of these components across the layers, various changes can be 
 &lt;hr /&gt;
 
 &lt;p&gt;Let me know if you liked this summary, and if you have a paper you would like me to append to my “read’n summarize” list. 
-Until next time, keep home and stay safe!&lt;/p&gt;</content><author><name>Wale</name></author><summary type="html">GANSpace - Discovering Interpretable GAN Controls</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://waleopakunle.com/images/2020-04-27-ganspace/ganspace1.png" /><media:content medium="image" url="https://waleopakunle.com/images/2020-04-27-ganspace/ganspace1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Latest Papers In Ai Research</title><link href="https://waleopakunle.com/papers/2020/04/21/latest-papers-in-ai-research" rel="alternate" type="text/html" title="Latest Papers In Ai Research" /><published>2020-04-21T00:00:00-05:00</published><updated>2020-04-21T00:00:00-05:00</updated><id>https://waleopakunle.com/papers/2020/04/21/latest-papers-in-ai-research</id><content type="html" xml:base="https://waleopakunle.com/papers/2020/04/21/latest-papers-in-ai-research">&lt;h1 id=&quot;latest-in-ai-research---week-17&quot;&gt;Latest in AI Research - Week 17&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/26FPC5oAdfeFPkQQE/giphy.gif&quot; alt=&quot;R for Research&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hey there! It’s another Tuesday, and here is a collation of what’s new in AI research.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Title:  Learning to see in the dark&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-04-21-latest-in-ai/learning-t-see-in-the-dark.png&quot; alt=&quot;learning_to_see_in_the_dark&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Abstract:Imaging in low light is challenging due to low photon count and low SNR. Short-exposure images suffer from noise, while long exposure can induce blur and is often impractical. A variety of denoising, deblurring, and enhancement techniques have been proposed, but their effectiveness is limited in extreme conditions, such as video-rate imaging at night. To support the development of learning-based pipelines for low-light image processing, we introduce a dataset of raw short-exposure low-light images, with corresponding long-exposure reference images. Using the presented dataset, we develop a pipeline for processing low-light images, based on end-to-end training of a fully-convolutional network. The network operates directly on raw sensor data and replaces much of the traditional image processing pipeline, which tends to perform poorly on such data. We report promising results on the new dataset, analyze factors that affect performance, and highlight opportunities for future work. The results are shown in the supplementary video at https://youtu.be/qWKUFK7MWvg&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Task:&lt;/td&gt;
-        &lt;td&gt;Deblurring&lt;/td&gt;
-        &lt;td&gt;Denoising&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Implementation:&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://github.com/cchen156/Learning-to-See-in-the-Dark&quot;&gt;code1&lt;/a&gt; - Python 2.7, Tensorflow&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://github.com/cydonia999/Learning_to_See_in_the_Dark_PyTorch&quot;&gt;code2&lt;/a&gt; - Pytorch&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Read the paper &lt;a href=&quot;https://arxiv.org/pdf/1805.01934v1.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Title:  DeepFactors: Real-Time Probabilistic Dense Monocular SLAM&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-04-21-latest-in-ai/df_teaser2.gif&quot; alt=&quot;df_teaser&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Abstract: The ability to estimate rich geometry and camera motion from monocular imagery is fundamental to future interactive robotics and augmented reality applications. Different approaches have been proposed that vary in scene geometry representation (sparse landmarks, dense maps), the consistency metric used for optimising the multi-view problem, and the use of learned priors. We present a SLAM system that unifies these methods in a probabilistic framework while still maintaining real-time performance. This is achieved through the use of a learned compact depth map representation and reformulating three different types of errors: photometric, reprojection and geometric, which we make use of within standard factor graph software. We evaluate our system on trajectory estimation and depth reconstruction on real-world sequences and present various examples of estimated dense geometry.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Task:&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Implementation:&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://github.com/jczarnowski/DeepFactors&quot;&gt;code&lt;/a&gt; - C++&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Read the paper &lt;a href=&quot;https://github.com/jczarnowski/DeepFactors&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Title:  Weight Poisoning Attacks on Pre-trained Models&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-04-21-latest-in-ai/evil_bert_weight_poisoning.jpg&quot; alt=&quot;evil_bert&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Abstract:Recently, NLP has seen a surge in the usage of large pre-trained models. Users download weights of models pre-trained on large datasets, then fine-tune the weights on a task of their choice. This raises the question of whether downloading untrusted pre-trained weights can pose a security threat. In this paper, we show that it is possible to construct weight poisoning’’ attacks where pre-trained weights are injected with vulnerabilities that expose backdoors’’ after fine-tuning, enabling the attacker to manipulate the model prediction simply by injecting an arbitrary keyword. We show that by applying a regularization method, which we call RIPPLe, and an initialization procedure, which we call Embedding Surgery, such attacks are possible even with limited knowledge of the dataset and fine-tuning procedure. Our experiments on sentiment classification, toxicity detection, and spam detection show that this attack is widely applicable and poses a serious threat. Finally, we outline practical defenses against such attacks.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Task:&lt;/td&gt;
-        &lt;td&gt;Sentiment Analysis&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Implementation:&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://github.com/neulab/RIPPLe&quot;&gt;code&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Read the paper &lt;a href=&quot;https://arxiv.org/pdf/2004.06660v1.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Title:  Revisiting the Arcade Learning Environment: Evaluation Protocols and Open Problems for General Agents&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Ntgcecq.png&quot; alt=&quot;Architechture of different off-policy agents&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Abstract: The Arcade Learning Environment (ALE) is an evaluation platform that poses the challenge of building AI agents with general competency across dozens of Atari 2600 games. It supports a variety of different problem settings and it has been receiving increasing attention from the scientific community, leading to some high-profile success stories such as the much publicized Deep Q-Networks (DQN). In this article we take a big picture look at how the ALE is being used by the research community. We show how diverse the evaluation methodologies in the ALE have become with time, and highlight some key concerns when evaluating agents in the ALE. We use this discussion to present some methodological best practices and provide new benchmark results using these best practices. To further the progress in the field, we introduce a new version of the ALE that supports multiple game modes and provides a form of stochasticity we call sticky actions. We conclude this big picture look by revisiting challenges posed when the ALE was introduced, summarizing the state-of-the-art in various problems and highlighting problems that remain open.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Task:&lt;/td&gt;
-        &lt;td&gt;Atari Games&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Implementation:&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://github.com/google-research/batch_rl&quot;&gt;code&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Read the paper &lt;a href=&quot;https://arxiv.org/pdf/1709.06009v2.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Title:  Footprints and Free Space from a Single Color Image&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/2020-04-21-latest-in-ai/footprints_and_free_space.gif&quot; alt=&quot;footprints_and_free_space&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Abstract: Understanding the shape of a scene from a single color image is a formidable computer vision task. However, most methods aim to predict the geometry of surfaces that are visible to the camera, which is of limited use when planning paths for robots or augmented reality agents. Such agents can only move when grounded on a traversable surface, which we define as the set of classes which humans can also walk over, such as grass, footpaths and pavement. Models which predict beyond the line of sight often parameterize the scene with voxels or meshes, which can be expensive to use in machine learning frameworks. We introduce a model to predict the geometry of both visible and occluded traversable surfaces, given a single RGB image as input. We learn from stereo video sequences, using camera poses, per-frame depth and semantic segmentation to form training data, which is used to supervise an image-to-image network. We train models from the KITTI driving dataset, the indoor Matterport dataset, and from our own casually captured stereo footage. We find that a surprisingly low bar for spatial coverage of training scenes is required. We validate our algorithm against a range of strong baselines, and include an assessment of our predictions for a path-planning task.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Task:&lt;/td&gt;
-        &lt;td&gt;Semantic Segmentation&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Implementation:&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://github.com/nianticlabs/footprints&quot;&gt;code&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Read the paper &lt;a href=&quot;&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Title:  An Optimistic Perspective on Offline Reinforcement Learning&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/Ntgcecq.png&quot; alt=&quot;Architechture of different off-policy agents&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Abstract: Off-policy reinforcement learning (RL) using a fixed offline dataset of logged interactions is an important consideration in real world applications. This paper studies offline RL using the DQN replay dataset comprising the entire replay experience of a DQN agent on 60 Atari 2600 games. We demonstrate that recent off-policy deep RL algorithms, even when trained solely on this replay dataset, outperform the fully trained DQN agent. To enhance generalization in the offline setting, we present Random Ensemble Mixture (REM), a robust Q-learning algorithm that enforces optimal Bellman consistency on random convex combinations of multiple Q-value estimates. Offline REM trained on the DQN replay dataset surpasses strong RL baselines. The results here present an optimistic view that robust RL algorithms trained on sufficiently large and diverse offline datasets can lead to high quality policies. The DQN replay dataset can serve as an offline RL benchmark and is open-sourced.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Task:&lt;/td&gt;
-        &lt;td&gt;Atari games&lt;/td&gt;
-        &lt;td&gt;Q-Learning&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Implementation:&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://github.com/google-research/batch_rl&quot;&gt;code&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Read the paper &lt;a href=&quot;https://arxiv.org/pdf/1907.04543v3.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Title:  AI Feynman: a Physics-Inspired Method for Symbolic Regression&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Abstract: A core challenge for both physics and artificial intellicence (AI) is symbolic regression: finding a symbolic expression that matches data from an unknown function. Although this problem is likely to be NP-hard in principle, functions of practical interest often exhibit symmetries, separability, compositionality and other simplifying properties. In this spirit, we develop a recursive multidimensional symbolic regression algorithm that combines neural network fitting with a suite of physics-inspired techniques. We apply it to 100 equations from the Feynman Lectures on Physics, and it discovers all of them, while previous publicly available software cracks only 71; for a more difficult test set, we improve the state of the art success rate from 15% to 90%.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Task:&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Implementation:&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://github.com/SJ001/AI-Feynman&quot;&gt;code&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Read the paper &lt;a href=&quot;https://arxiv.org/pdf/1905.11481v2.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Title:  Few-Shot NLG with Pre-Trained Language Model&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Abstract: Neural-based end-to-end approaches to natural language generation (NLG) from structured data or knowledge are data-hungry, making their adoption for real-world applications difficult with limited data. In this work, we propose the new task of \textit{few-shot natural language generation}. Motivated by how humans tend to summarize tabular data, we propose a simple yet effective approach and show that it not only demonstrates strong performance but also provides good generalization across domains. The design of the model architecture is based on two aspects: content selection from input data and language modeling to compose coherent sentences, which can be acquired from prior knowledge. With just 200 training examples, across multiple domains, we show that our approach achieves very reasonable performances and outperforms the strongest baseline by an average of over 8.0 BLEU points improvement.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Task:&lt;/td&gt;
-        &lt;td&gt;Few Shot learning&lt;/td&gt;
-        &lt;td&gt;Language Modelling&lt;/td&gt;
-        &lt;td&gt;Text Generation&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;Implementation:&lt;/td&gt;
-        &lt;td&gt;&lt;a href=&quot;https://github.com/czyssrs/Few-Shot-NLG&quot;&gt;code&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Read the paper &lt;a href=&quot;https://arxiv.org/pdf/1904.09521v3.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: All papers and their related information are scraped from &lt;a href=&quot;https://paperswithcode.com/&quot;&gt;Paperswithcode&lt;/a&gt;, a super awesome site!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Which paper interests you? Which would you like to see imlemented in an easily accessible colab notebook? Let me know in the comments below!&lt;/p&gt;
-
-&lt;p&gt;Until next time, stay safe!&lt;/p&gt;</content><author><name>Wale</name></author><summary type="html">Latest in AI Research - Week 17</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://waleopakunle.com/images/2020-04-21-latest-in-ai/ours_1.gif" /><media:content medium="image" url="https://waleopakunle.com/images/2020-04-21-latest-in-ai/ours_1.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+Until next time, keep home and stay safe!&lt;/p&gt;</content><author><name>Wale</name></author><summary type="html">GANSpace - Discovering Interpretable GAN Controls</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://waleopakunle.com/images/2020-04-27-ganspace/ganspace1.png" /><media:content medium="image" url="https://waleopakunle.com/images/2020-04-27-ganspace/ganspace1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

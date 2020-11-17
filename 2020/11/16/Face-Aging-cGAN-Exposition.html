@@ -8,7 +8,7 @@
 
 <p>The training objective function for cGANs can be expressed as follows:</p>
 
-<p><img src="assets/img/2020-11-04-Face-Aging-cGAN-Exposition/media/image1.png" alt="http://localhost:5001/assets/115b5d5f-6623-46dc-bed1-e99a6aa5910c.png" /></p>
+<p><img src="assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image1.png" alt="http://localhost:5001/assets/115b5d5f-6623-46dc-bed1-e99a6aa5910c.png" /></p>
 
 <table>
   <tbody>
@@ -19,7 +19,7 @@
   </tbody>
 </table>
 
-<p>The architecture of a cGAN for face aging is slightly more complicated. The Age-cGan consists of four networks: an encoder, the FaceNet, a generator network, and a discriminator network. With the encoder, we learn the inverse mapping of input face images and the age condition with the latent vector <img src="assets/img/2020-11-04-Face-Aging-cGAN-Exposition/media/image2.png" alt="http://localhost:5001/assets/577645cb-a80b-4a10-98e8-5cf21f336b77.png" />. FaceNet is a face recognition network that learns the difference between an input image <em>x</em> and a reconstructed image <img src="assets/img/2020-11-04-Face-Aging-cGAN-Exposition/media/image3.png" alt="http://localhost:5001/assets/a77a78e0-3ea2-4ce3-8f96-deca552c9b9f.png" />. We have a generator network, which takes a hidden representation consisting of a face image and a condition vector and generates an image. The discriminator network is to discriminate between the real images and the fake images. </p>
+<p>The architecture of a cGAN for face aging is slightly more complicated. The Age-cGan consists of four networks: an encoder, the FaceNet, a generator network, and a discriminator network. With the encoder, we learn the inverse mapping of input face images and the age condition with the latent vector <img src="assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image2.png" alt="http://localhost:5001/assets/577645cb-a80b-4a10-98e8-5cf21f336b77.png" />. FaceNet is a face recognition network that learns the difference between an input image <em>x</em> and a reconstructed image <img src="assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image3.png" alt="http://localhost:5001/assets/a77a78e0-3ea2-4ce3-8f96-deca552c9b9f.png" />. We have a generator network, which takes a hidden representation consisting of a face image and a condition vector and generates an image. The discriminator network is to discriminate between the real images and the fake images. </p>
 
 <p>The problem with cGANs is that they can’t learn the task of inverse mapping an input image <em>x</em> with attributes <em>y</em> to a latent vector <em>z.</em> The solution to this problem is to use an encoder network. We can train an encoder network to approximate the inverse mapping of the input images <em>x.</em></p>
 
@@ -73,6 +73,6 @@
 
 <p>During latent vector optimization, we optimize the encoder network and the generator network simultaneously. The equation we use for latent vector optimization is as follows:</p>
 
-<p><img src="assets/img/2020-11-04-Face-Aging-cGAN-Exposition/media/image4.png" alt="http://localhost:5001/assets/98bda784-ced5-4608-8c1d-38477d40cb8f.png" /></p>
+<p><img src="assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image4.png" alt="http://localhost:5001/assets/98bda784-ced5-4608-8c1d-38477d40cb8f.png" /></p>
 
 <p>FR is the face recognition network. This equation indicates that the Euclidean distance between the real image and the reconstructed images should be minimal. In this stage, we try to minimize the distance to maximize identity preservation.</p>
