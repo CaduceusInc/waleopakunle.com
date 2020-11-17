@@ -1,0 +1,336 @@
+[
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {
+            "value": "\n```python\nimport datetime\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {
+            "value": "\n```python\nimport datetime\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "re,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re.",
+        "description": "re.",
+        "detail": "re.",
+        "documentation": {
+            "value": "\n```python\nimport re.\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {
+            "value": "\n```python\nimport pathlib\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {
+            "value": "\n```python\nimport pathlib\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {
+            "value": "\n```python\nimport typing\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {
+            "value": "\n```python\nimport typing\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "export2html",
+        "importPath": "nbdev",
+        "description": "nbdev",
+        "isExtraImport": true,
+        "detail": "nbdev",
+        "documentation": {
+            "value": "\n```python\nimport nbdev\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Config",
+        "importPath": "nbdev.export2html",
+        "description": "nbdev.export2html",
+        "isExtraImport": true,
+        "detail": "nbdev.export2html",
+        "documentation": {
+            "value": "\n```python\nimport nbdev.export2html\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "Path",
+        "importPath": "nbdev.export2html",
+        "description": "nbdev.export2html",
+        "isExtraImport": true,
+        "detail": "nbdev.export2html",
+        "documentation": {
+            "value": "\n```python\nimport nbdev.export2html\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "_re_digits",
+        "importPath": "nbdev.export2html",
+        "description": "nbdev.export2html",
+        "isExtraImport": true,
+        "detail": "nbdev.export2html",
+        "documentation": {
+            "value": "\n```python\nimport nbdev.export2html\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "_to_html",
+        "importPath": "nbdev.export2html",
+        "description": "nbdev.export2html",
+        "isExtraImport": true,
+        "detail": "nbdev.export2html",
+        "documentation": {
+            "value": "\n```python\nimport nbdev.export2html\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "_re_block_notes",
+        "importPath": "nbdev.export2html",
+        "description": "nbdev.export2html",
+        "isExtraImport": true,
+        "detail": "nbdev.export2html",
+        "documentation": {
+            "value": "\n```python\nimport nbdev.export2html\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "rename_for_jekyll",
+        "importPath": "fast_template",
+        "description": "fast_template",
+        "isExtraImport": true,
+        "detail": "fast_template",
+        "documentation": {
+            "value": "\n```python\nimport fast_template\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "rename_for_jekyll",
+        "importPath": "fast_template",
+        "description": "fast_template",
+        "isExtraImport": true,
+        "detail": "fast_template",
+        "documentation": {
+            "value": "\n```python\nimport fast_template\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sys,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys.",
+        "description": "sys.",
+        "detail": "sys.",
+        "documentation": {
+            "value": "\n```python\nimport sys.\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {
+            "value": "\n```python\nimport sys\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {
+            "value": "\n```python\nimport pandas\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {
+            "value": "\n```python\nimport numpy\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "rename_for_jekyll",
+        "kind": 2,
+        "importPath": "_action_files.fast_template",
+        "description": "_action_files.fast_template",
+        "peekOfCode": "def rename_for_jekyll(nb_path: Path, warnings: Set[Tuple[str, str]]=None) -> str:\n    \"\"\"\n    Return a Path's filename string appended with its modified time in YYYY-MM-DD format.\n    \"\"\"\n    assert nb_path.exists(), f'{nb_path} could not be found.'\n    # Checks if filename is compliant with Jekyll blog posts\n    if _re_blog_date.match(nb_path.name): return nb_path.with_suffix('.md').name.replace(' ', '-')\n    else:\n        clean_name = _re_numdash.sub('', nb_path.with_suffix('.md').name).replace(' ', '-')\n        # Gets the file's last modified time and and append YYYY-MM-DD- to the beginning of the filename",
+        "detail": "_action_files.fast_template",
+        "documentation": {
+            "value": "\n```python\nfrom _action_files.fast_template import rename_for_jekyll\n```\n\n```python\n\n\n```\n\n```python\ndef rename_for_jekyll(nb_path: Path, warnings: Set[Tuple[str, str]]=None) -> str:\n    \"\"\"\n    Return a Path's filename string appended with its modified time in YYYY-MM-DD format.\n    \"\"\"\n    assert nb_path.exists(), f'{nb_path} could not be found.'\n    # Checks if filename is compliant with Jekyll blog posts\n    if _re_blog_date.match(nb_path.name): return nb_path.with_suffix('.md').name.replace(' ', '-')\n    else:\n        clean_name = _re_numdash.sub('', nb_path.with_suffix('.md').name).replace(' ', '-')\n        # Gets the file's last modified time and and append YYYY-MM-DD- to the beginning of the filename\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "_re_blog_date",
+        "kind": 5,
+        "importPath": "_action_files.fast_template",
+        "description": "_action_files.fast_template",
+        "peekOfCode": "_re_blog_date = re.compile(r'([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])-)')\n# Check for leading dashses or numbers\n_re_numdash = re.compile(r'(^[-\\d]+)')\ndef rename_for_jekyll(nb_path: Path, warnings: Set[Tuple[str, str]]=None) -> str:\n    \"\"\"\n    Return a Path's filename string appended with its modified time in YYYY-MM-DD format.\n    \"\"\"\n    assert nb_path.exists(), f'{nb_path} could not be found.'\n    # Checks if filename is compliant with Jekyll blog posts\n    if _re_blog_date.match(nb_path.name): return nb_path.with_suffix('.md').name.replace(' ', '-')",
+        "detail": "_action_files.fast_template",
+        "documentation": {
+            "value": "\n```python\nfrom _action_files.fast_template import _re_blog_date\n```\n\n```python\n\n\n```\n\n```python\n_re_blog_date = re.compile(r'([12]\\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])-)')\n# Check for leading dashses or numbers\n_re_numdash = re.compile(r'(^[-\\d]+)')\ndef rename_for_jekyll(nb_path: Path, warnings: Set[Tuple[str, str]]=None) -> str:\n    \"\"\"\n    Return a Path's filename string appended with its modified time in YYYY-MM-DD format.\n    \"\"\"\n    assert nb_path.exists(), f'{nb_path} could not be found.'\n    # Checks if filename is compliant with Jekyll blog posts\n    if _re_blog_date.match(nb_path.name): return nb_path.with_suffix('.md').name.replace(' ', '-')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "_re_numdash",
+        "kind": 5,
+        "importPath": "_action_files.fast_template",
+        "description": "_action_files.fast_template",
+        "peekOfCode": "_re_numdash = re.compile(r'(^[-\\d]+)')\ndef rename_for_jekyll(nb_path: Path, warnings: Set[Tuple[str, str]]=None) -> str:\n    \"\"\"\n    Return a Path's filename string appended with its modified time in YYYY-MM-DD format.\n    \"\"\"\n    assert nb_path.exists(), f'{nb_path} could not be found.'\n    # Checks if filename is compliant with Jekyll blog posts\n    if _re_blog_date.match(nb_path.name): return nb_path.with_suffix('.md').name.replace(' ', '-')\n    else:\n        clean_name = _re_numdash.sub('', nb_path.with_suffix('.md').name).replace(' ', '-')",
+        "detail": "_action_files.fast_template",
+        "documentation": {
+            "value": "\n```python\nfrom _action_files.fast_template import _re_numdash\n```\n\n```python\n\n\n```\n\n```python\n_re_numdash = re.compile(r'(^[-\\d]+)')\ndef rename_for_jekyll(nb_path: Path, warnings: Set[Tuple[str, str]]=None) -> str:\n    \"\"\"\n    Return a Path's filename string appended with its modified time in YYYY-MM-DD format.\n    \"\"\"\n    assert nb_path.exists(), f'{nb_path} could not be found.'\n    # Checks if filename is compliant with Jekyll blog posts\n    if _re_blog_date.match(nb_path.name): return nb_path.with_suffix('.md').name.replace(' ', '-')\n    else:\n        clean_name = _re_numdash.sub('', nb_path.with_suffix('.md').name).replace(' ', '-')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "warnings",
+        "kind": 5,
+        "importPath": "_action_files.nb2post",
+        "description": "_action_files.nb2post",
+        "peekOfCode": "warnings = set()\n# Modify the naming process such that destination files get named properly for Jekyll _posts\ndef _nb2htmlfname(nb_path, dest=None): \n    fname = rename_for_jekyll(nb_path, warnings=warnings)\n    if dest is None: dest = Config().doc_path\n    return Path(dest)/fname\n# TODO: Open a GitHub Issue in addition to printing warnings\nfor original, new in warnings:\n    print(f'{original} has been renamed to {new} to be complaint with Jekyll naming conventions.\\n')\n## apply monkey patches",
+        "detail": "_action_files.nb2post",
+        "documentation": {
+            "value": "\n```python\nfrom _action_files.nb2post import warnings\n```\n\n```python\n\n\n```\n\n```python\nwarnings = set()\n# Modify the naming process such that destination files get named properly for Jekyll _posts\ndef _nb2htmlfname(nb_path, dest=None): \n    fname = rename_for_jekyll(nb_path, warnings=warnings)\n    if dest is None: dest = Config().doc_path\n    return Path(dest)/fname\n# TODO: Open a GitHub Issue in addition to printing warnings\nfor original, new in warnings:\n    print(f'{original} has been renamed to {new} to be complaint with Jekyll naming conventions.\\n')\n## apply monkey patches\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "export2html._nb2htmlfname",
+        "kind": 5,
+        "importPath": "_action_files.nb2post",
+        "description": "_action_files.nb2post",
+        "peekOfCode": "export2html._nb2htmlfname = _nb2htmlfname\nexport2html.notebook2html(fname='_notebooks/*.ipynb', dest='_posts/', template_file='/fastpages/fastpages.tpl')",
+        "detail": "_action_files.nb2post",
+        "documentation": {
+            "value": "\n```python\nfrom _action_files.nb2post import export2html._nb2htmlfname\n```\n\n```python\n\n\n```\n\n```python\nexport2html._nb2htmlfname = _nb2htmlfname\nexport2html.notebook2html(fname='_notebooks/*.ipynb', dest='_posts/', template_file='/fastpages/fastpages.tpl')\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "logs",
+        "kind": 5,
+        "importPath": "_action_files.parse_netlify",
+        "description": "_action_files.parse_netlify",
+        "peekOfCode": "logs = sys.stdin.read()\ndraft_url = re.findall(r'Live Draft URL: .*(https://.*)', logs)[0]\nassert draft_url, 'Was not able to find Draft URL in the logs:\\n{}'.format(logs)\nprint(\"::set-output name=draft_url::{}\".format(draft_url))",
+        "detail": "_action_files.parse_netlify",
+        "documentation": {
+            "value": "\n```python\nfrom _action_files.parse_netlify import logs\n```\n\n```python\n\n\n```\n\n```python\nlogs = sys.stdin.read()\ndraft_url = re.findall(r'Live Draft URL: .*(https://.*)', logs)[0]\nassert draft_url, 'Was not able to find Draft URL in the logs:\\n{}'.format(logs)\nprint(\"::set-output name=draft_url::{}\".format(draft_url))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "draft_url",
+        "kind": 5,
+        "importPath": "_action_files.parse_netlify",
+        "description": "_action_files.parse_netlify",
+        "peekOfCode": "draft_url = re.findall(r'Live Draft URL: .*(https://.*)', logs)[0]\nassert draft_url, 'Was not able to find Draft URL in the logs:\\n{}'.format(logs)\nprint(\"::set-output name=draft_url::{}\".format(draft_url))",
+        "detail": "_action_files.parse_netlify",
+        "documentation": {
+            "value": "\n```python\nfrom _action_files.parse_netlify import draft_url\n```\n\n```python\n\n\n```\n\n```python\ndraft_url = re.findall(r'Live Draft URL: .*(https://.*)', logs)[0]\nassert draft_url, 'Was not able to find Draft URL in the logs:\\n{}'.format(logs)\nprint(\"::set-output name=draft_url::{}\".format(draft_url))\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "load_individual_timeseries",
+        "kind": 2,
+        "importPath": "_notebooks.load_covid_data",
+        "description": "_notebooks.load_covid_data",
+        "peekOfCode": "def load_individual_timeseries(name):\n    base_url='https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series'\n    url = f'{base_url}/time_series_19-covid-{name}.csv'\n    df = pd.read_csv(url, \n                     index_col=['Country/Region', 'Province/State', 'Lat', 'Long'])\n    df['type'] = name.lower()\n    df.columns.name = 'date'\n    df = (df.set_index('type', append=True)\n            .reset_index(['Lat', 'Long'], drop=True)\n            .stack()",
+        "detail": "_notebooks.load_covid_data",
+        "documentation": {
+            "value": "\n```python\nfrom _notebooks.load_covid_data import load_individual_timeseries\n```\n\n```python\n\n\n```\n\n```python\ndef load_individual_timeseries(name):\n    base_url='https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series'\n    url = f'{base_url}/time_series_19-covid-{name}.csv'\n    df = pd.read_csv(url, \n                     index_col=['Country/Region', 'Province/State', 'Lat', 'Long'])\n    df['type'] = name.lower()\n    df.columns.name = 'date'\n    df = (df.set_index('type', append=True)\n            .reset_index(['Lat', 'Long'], drop=True)\n            .stack()\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "load_data",
+        "kind": 2,
+        "importPath": "_notebooks.load_covid_data",
+        "description": "_notebooks.load_covid_data",
+        "peekOfCode": "def load_data(drop_states=False, p_crit=.05, filter_n_days_100=None):\n    df = load_individual_timeseries('Confirmed')\n    df = df.rename(columns={'cases': 'confirmed'})\n    if drop_states:\n        # Drop states for simplicity\n        df = df.loc[df.state.isnull()]\n    # Estimated critical cases\n    df = df.assign(critical_estimate=df.confirmed*p_crit)\n    # Compute days relative to when 100 confirmed cases was crossed\n    df.loc[:, 'days_since_100'] = np.nan",
+        "detail": "_notebooks.load_covid_data",
+        "documentation": {
+            "value": "\n```python\nfrom _notebooks.load_covid_data import load_data\n```\n\n```python\n\n\n```\n\n```python\ndef load_data(drop_states=False, p_crit=.05, filter_n_days_100=None):\n    df = load_individual_timeseries('Confirmed')\n    df = df.rename(columns={'cases': 'confirmed'})\n    if drop_states:\n        # Drop states for simplicity\n        df = df.loc[df.state.isnull()]\n    # Estimated critical cases\n    df = df.assign(critical_estimate=df.confirmed*p_crit)\n    # Compute days relative to when 100 confirmed cases was crossed\n    df.loc[:, 'days_since_100'] = np.nan\n```\n",
+            "supportThemeIcons": false
+        }
+    },
+    {
+        "label": "load_data_since_case_fifty",
+        "kind": 2,
+        "importPath": "_notebooks.load_covid_data",
+        "description": "_notebooks.load_covid_data",
+        "peekOfCode": "def load_data_since_case_fifty(drop_states=False, p_crit=.045, filter_n_days_10=None):\n    df = load_individual_timeseries('Confirmed')\n    df = df.rename(columns={'cases': 'confirmed'})\n    if drop_states:\n        # Drop states for simplicity\n        df = df.loc[df.state.isnull()]\n    # Estimated critical cases\n    df = df.assign(critical_estimate=df.confirmed*p_crit)\n    # Compute days relative to when 10 confirmed cases was crossed\n    df.loc[:, 'days_since_10'] = np.nan",
+        "detail": "_notebooks.load_covid_data",
+        "documentation": {
+            "value": "\n```python\nfrom _notebooks.load_covid_data import load_data_since_case_fifty\n```\n\n```python\n\n\n```\n\n```python\ndef load_data_since_case_fifty(drop_states=False, p_crit=.045, filter_n_days_10=None):\n    df = load_individual_timeseries('Confirmed')\n    df = df.rename(columns={'cases': 'confirmed'})\n    if drop_states:\n        # Drop states for simplicity\n        df = df.loc[df.state.isnull()]\n    # Estimated critical cases\n    df = df.assign(critical_estimate=df.confirmed*p_crit)\n    # Compute days relative to when 10 confirmed cases was crossed\n    df.loc[:, 'days_since_10'] = np.nan\n```\n",
+            "supportThemeIcons": false
+        }
+    }
+]
