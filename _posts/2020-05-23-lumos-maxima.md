@@ -113,7 +113,7 @@ On June 22, WWDC20 takes off. Get ready for the first global, all-online WWDC by
 
 - [Flickr 30k Dataset](https://www.kaggle.com/hsankesara/flickr-image-dataset){:target="_blank"}: The Flickr 30k dataset has over 30,000 images, and each image is labeled with different captions. This dataset is used to build an image caption generator. And this dataset is an upgraded version of Flickr 8k used to build more accurate models.
 
-**Possible project idea**:  You can train a deep learning model that is capable of analysing and extracting features from the image and generate as english sentence that describes the image. Next time when your friend send you an image and goes, "Caption this", you can ask your model what it thinks and get back to your friend with the machine caption.
+**Possible project idea**:  You can train a deep learning model that is capable of analysing and extracting features from the image and generate as English sentence that describes the image. Next time when your friend send you an image and goes, "Caption this", you can ask your model what it thinks and get back to your friend with the machine caption.
 
 - [Chatbot Intents Dataset](https://github.com/katanaml/katana-assistant/blob/master/mlbackend/intents.json){:target="_blank"}
 The dataset for a chatbot is a JSON file that has disparate tags like goodbye, greetings, pharmacy_search, hospital_search, etc. Every tag has a list of patterns that a user can ask, and the chatbot will respond according to that pattern. The dataset is perfect for understanding how chatbot data works.
@@ -163,7 +163,7 @@ The youtube 8M dataset is a large scale labeled video dataset that has 6.1 milli
 
   - Read how Waymo is using GANs in modules of their self-driving software, to simulate autonomous vehicle camera and sensor data in this article by [Kyle Wiggers on Venturebeat](https://venturebeat.com/2020/05/20/waymo-is-using-ai-to-simulate-autonomous-vehicle-camera-data/){:target="_blank"}.
 
-  > " In simulation, when a trajectory of a self-driving car and other agents (e.g. other cars, cyclists, and pedestrians) changes, the system generates realistic visual sensor data that helps us model the scene in the updated environment … "   - A Waymo spokesperson.
+  > " In the simulation, when a trajectory of a self-driving car and other agents (e.g. other cars, cyclists, and pedestrians) changes, the system generates realistic visual sensor data that helps us model the scene in the updated environment … "   - A Waymo spokesperson.
 
   - [Is AI democratization a real thing?](https://medium.com/sciforce/is-ai-democratization-a-real-thing-12957ca18534){:target="_blank"}
 
