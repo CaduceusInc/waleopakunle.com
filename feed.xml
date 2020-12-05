@@ -1,25 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://waleopakunle.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://waleopakunle.com/" rel="alternate" type="text/html" /><updated>2020-11-16T21:14:48-06:00</updated><id>https://waleopakunle.com/feed.xml</id><title type="html">AI Tech Blog</title><subtitle>A chronicle of my passion for developing witty computers.</subtitle><entry><title type="html">Reflex</title><link href="https://waleopakunle.com/papers/2020/11/17/reflex" rel="alternate" type="text/html" title="Reflex" /><published>2020-11-17T00:00:00-06:00</published><updated>2020-11-17T00:00:00-06:00</updated><id>https://waleopakunle.com/papers/2020/11/17/reflex</id><content type="html" xml:base="https://waleopakunle.com/papers/2020/11/17/reflex">&lt;h1 id=&quot;prrr&quot;&gt;Prrr…&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://waleopakunle.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://waleopakunle.com/" rel="alternate" type="text/html" /><updated>2020-12-05T13:41:12-06:00</updated><id>https://waleopakunle.com/feed.xml</id><title type="html">AI Tech Blog</title><subtitle>A chronicle of my passion for developing witty computers.</subtitle><entry><title type="html">Skills I Have Picked Up In My Data Science Journey</title><link href="https://waleopakunle.com/data-science/2020/12/05/skills-I-have-picked-up-in-my-data-science-journey" rel="alternate" type="text/html" title="Skills I Have Picked Up In My Data Science Journey" /><published>2020-12-05T00:00:00-06:00</published><updated>2020-12-05T00:00:00-06:00</updated><id>https://waleopakunle.com/data-science/2020/12/05/skills-I-have-picked-up-in-my-data-science-journey</id><content type="html" xml:base="https://waleopakunle.com/data-science/2020/12/05/skills-I-have-picked-up-in-my-data-science-journey">&lt;div class=&quot;Toast&quot;&gt;
+   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-info&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
+   &lt;span class=&quot;Toast-content&quot;&gt;THIS ARTICLE IS A WORK IN PROGRESS - MY WAY OF PUSHING MYSELF TO WRITE MORE.&lt;/span&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Tuesday.&lt;/p&gt;
+&lt;h1 id=&quot;valuable-skills-ive-picked-up-in-my-data-science-journey&quot;&gt;Valuable skills I’ve picked up in my data science journey&lt;/h1&gt;
 
-&lt;p&gt;I’m sitting here on a workday, at 3am, considering a lot of things.&lt;/p&gt;
+&lt;p&gt;On a recent Tuesday, I was taking a break from my rigorous work schedule to check in on LinkedIn. I had received a message on LinkedIn from a startup founder. He wanted insights into some of the valuable skills I had picked up in my work as a data scientist at my current place of employment.&lt;/p&gt;
 
-&lt;p&gt;First of all, I am wondering how I managed to make it to 3am while wide awake. I’d made a commitment to be asleep by no later than midnigt today. There are some sleepy battles that black coffee just wont fight these days.&lt;/p&gt;
+&lt;p&gt;I immediately remembered this draft I had lying dormant in my draft collection and had been meaning to get out there. Unfortunately, I haven’t heard back from said founder regarding the ‘interview’ and so I am putting this article out there for whoever may find these insights valuable.&lt;/p&gt;
 
-&lt;p&gt;My eyes wondered to my phone’s screen and I notice the receipt for my purchse of this domain name. I then remember how long it took me to set this platform up; the sentiment behinf it all bacj then… I inevitably succumb to nostaligia. I miss writing. I miss sharing what I learn and chalenging myself to find out even more just because of the thril and rush this brings me. The satisfying feeling of transfering information and creating understanding.&lt;/p&gt;
+&lt;h2 id=&quot;without-further-ado-lets-get-to-it&quot;&gt;Without further ado, let’s get to it!&lt;/h2&gt;
 
-&lt;p&gt;You see, I have been meaning to write. I have spent what must be countless hours ruminating on what to talk about in 2020, but the trut is this has been quite a year and it has left it’s historical imprint upon us all.&lt;/p&gt;
+&lt;p&gt;T. O. C&lt;/p&gt;
 
-&lt;p&gt;2020.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#more-haste-less-speed&quot;&gt;More haste less speed.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#rewards-follow-value&quot;&gt;Rewards follow value.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#manage-expectations&quot;&gt;Manage expectations.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#machine-learning-is-a-tool&quot;&gt;ML is a tool&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#documentation-is-vital&quot;&gt;Documentation is vital&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#polymath-or-generalist&quot;&gt;Polymath or Specialist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#prioritizing-interests&quot;&gt;Prioritizing interests.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#put-your-work-out-there&quot;&gt;Put your work out there.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#imposter-syndrome&quot;&gt;Imposter syndrome - get over it&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#pick-up-other-software-and-soft-skills&quot;&gt;Pick up other software and soft skills&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#get-certified-get-seen&quot;&gt;Get certified, get seen.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#read-everyday&quot;&gt;Read and Practice. Every day.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#give-back-to-society&quot;&gt;Give back to society.&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;What a year. (Probably a story for another day?)&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;I am starting a new writing style experiment that I hope will lead me to write more.
-I will write out all my drafts in the public eye of the internet and give myself an ultimatum to get it done.&lt;/p&gt;
+&lt;h2 id=&quot;more-haste-less-speed&quot;&gt;More haste less speed&lt;/h2&gt;
 
-&lt;p&gt;I am too sleep deprived to work out the details right now, but this is my initial post for said experiment.&lt;/p&gt;
+&lt;p&gt;While advancing your knowledge of artificial intelligence, it is not unusual to get caught up in learning loops. Or even worse, to burn candles at both ends because you’re buried in research papers, tutorials, projects, or whatever is currently catching your fancy. To be honest, I still get caught up in this loop and go very long hours without sleep.&lt;/p&gt;
 
-&lt;p&gt;TBC….&lt;/p&gt;</content><author><name>Wale</name></author><summary type="html">Prrr…</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://waleopakunle.com/images/2020-06-13-lpiair-wk21/oneshotSegmentation.gif" /><media:content medium="image" url="https://waleopakunle.com/images/2020-06-13-lpiair-wk21/oneshotSegmentation.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Stack Gan Exposition</title><link href="https://waleopakunle.com/2020/11/16/STACK-GAN-Exposition.html" rel="alternate" type="text/html" title="Stack Gan Exposition" /><published>2020-11-16T00:00:00-06:00</published><updated>2020-11-16T00:00:00-06:00</updated><id>https://waleopakunle.com/2020/11/16/STACK-GAN-Exposition</id><content type="html" xml:base="https://waleopakunle.com/2020/11/16/STACK-GAN-Exposition.html">&lt;h1 id=&quot;face-aging-using-conditional-gan&quot;&gt;Face Aging Using Conditional GAN&lt;/h1&gt;
+&lt;div class=&quot;Toast&quot;&gt;
+   &lt;span class=&quot;Toast-icon&quot;&gt;&lt;svg class=&quot;octicon octicon-info octicon octicon-info&quot; viewBox=&quot;0 0 14 16&quot; version=&quot;1.1&quot; width=&quot;14&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/span&gt;
+   &lt;span class=&quot;Toast-content&quot;&gt;Being a data scientist is a marathon, not a sprint.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;rewards-follow-value&quot;&gt;Rewards follow value.&lt;/h2&gt;
+
+&lt;h2 id=&quot;manage-expectations&quot;&gt;Manage expectations&lt;/h2&gt;
+
+&lt;h2 id=&quot;machine-learning-is-a-tool&quot;&gt;Machine Learning is a tool&lt;/h2&gt;
+
+&lt;h2 id=&quot;documentation-is-vital&quot;&gt;Documentation is vital&lt;/h2&gt;
+
+&lt;h2 id=&quot;polymath-or-specialist&quot;&gt;Polymath or Specialist&lt;/h2&gt;
+&lt;p&gt;You most likely need to be a generalist. This is a harsh reality.&lt;/p&gt;
+
+&lt;h2 id=&quot;prioritizing-interests&quot;&gt;Prioritizing interests&lt;/h2&gt;
+
+&lt;h2 id=&quot;put-your-work-out-there&quot;&gt;Put your work out there&lt;/h2&gt;
+
+&lt;h2 id=&quot;imposter-syndrome&quot;&gt;Imposter syndrome&lt;/h2&gt;
+
+&lt;p&gt;Get over it&lt;/p&gt;
+
+&lt;h2 id=&quot;pick-up-other-software-and-soft-skills&quot;&gt;Pick up other software and soft skills&lt;/h2&gt;
+
+&lt;h2 id=&quot;get-certified-get-seen&quot;&gt;Get certified, get seen&lt;/h2&gt;
+
+&lt;h2 id=&quot;read-everyday&quot;&gt;Read. Everyday&lt;/h2&gt;
+
+&lt;h2 id=&quot;give-back-to-society&quot;&gt;Give back to society&lt;/h2&gt;</content><author><name>Wale</name></author><summary type="html">THIS ARTICLE IS A WORK IN PROGRESS - MY WAY OF PUSHING MYSELF TO WRITE MORE. Valuable skills I’ve picked up in my data science journey</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://media.giphy.com/media/1BeZZcgXRynSeWdkMG/giphy.gif" /><media:content medium="image" url="https://media.giphy.com/media/1BeZZcgXRynSeWdkMG/giphy.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Stack Gan Exposition</title><link href="https://waleopakunle.com/2020/12/04/STACK-GAN-Exposition.html" rel="alternate" type="text/html" title="Stack Gan Exposition" /><published>2020-12-04T00:00:00-06:00</published><updated>2020-12-04T00:00:00-06:00</updated><id>https://waleopakunle.com/2020/12/04/STACK-GAN-Exposition</id><content type="html" xml:base="https://waleopakunle.com/2020/12/04/STACK-GAN-Exposition.html">&lt;h1 id=&quot;face-aging-using-conditional-gan&quot;&gt;Face Aging Using Conditional GAN&lt;/h1&gt;
 
 &lt;p&gt;StackGAN is a two-stage network. Each stage has two generators and two discriminators. StackGAN is made up of many networks, which are as follows:&lt;/p&gt;
 
@@ -38,11 +84,11 @@ I will write out all my drafts in the public eye of the internet and give myself
 
 &lt;p&gt;The sole purpose of the text encoder network is to convert a text description (t) to a text embedding&lt;/p&gt;
 
-&lt;p&gt;(&lt;img src=&quot;assets/img/2020-11-16-STACK-GAN-Exposition/media/image1.png&quot; alt=&quot;http://localhost:5001/assets/b202e2a1-36da-4851-8a99-1cf84585df1d.png&quot; /&gt;). I won’t train the text encoder network. I will be working with pre-trained text embeddings, but you can train yours by using the steps discussed in this paper: &lt;a href=&quot;https://arxiv.org/pdf/1605.05395.pdf&quot;&gt;https://arxiv.org/pdf/1605.05395.pdf&lt;/a&gt;. The text encoder network encodes a sentence to a 1,024-dimensional text embedding. The text encoder network is common to both of the stages&lt;/p&gt;
+&lt;p&gt;(&lt;img src=&quot;assets/img/2020-12-04-STACK-GAN-Exposition/media/image1.png&quot; alt=&quot;http://localhost:5001/assets/b202e2a1-36da-4851-8a99-1cf84585df1d.png&quot; /&gt;). I won’t train the text encoder network. I will be working with pre-trained text embeddings, but you can train yours by using the steps discussed in this paper: &lt;a href=&quot;https://arxiv.org/pdf/1605.05395.pdf&quot;&gt;https://arxiv.org/pdf/1605.05395.pdf&lt;/a&gt;. The text encoder network encodes a sentence to a 1,024-dimensional text embedding. The text encoder network is common to both of the stages&lt;/p&gt;
 
 &lt;p&gt;The conditioning augmentation block&lt;/p&gt;
 
-&lt;p&gt;A &lt;strong&gt;conditioning augmentation&lt;/strong&gt; (&lt;strong&gt;CA&lt;/strong&gt;) network samples random latent variables &lt;img src=&quot;assets/img/2020-11-16-STACK-GAN-Exposition/media/image2.png&quot; alt=&quot;http://localhost:5001/assets/d86d468c-b92c-41c9-83f1-75baf727847c.png&quot; /&gt; from a distribution, which is represented as &lt;img src=&quot;assets/img/2020-11-16-STACK-GAN-Exposition/media/image3.png&quot; alt=&quot;http://localhost:5001/assets/cb774d54-76ee-4c94-89a7-94e8b16c4493.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;conditioning augmentation&lt;/strong&gt; (&lt;strong&gt;CA&lt;/strong&gt;) network samples random latent variables &lt;img src=&quot;assets/img/2020-12-04-STACK-GAN-Exposition/media/image2.png&quot; alt=&quot;http://localhost:5001/assets/d86d468c-b92c-41c9-83f1-75baf727847c.png&quot; /&gt; from a distribution, which is represented as &lt;img src=&quot;assets/img/2020-12-04-STACK-GAN-Exposition/media/image3.png&quot; alt=&quot;http://localhost:5001/assets/cb774d54-76ee-4c94-89a7-94e8b16c4493.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Advantages:&lt;/p&gt;
 
@@ -71,7 +117,7 @@ I will write out all my drafts in the public eye of the internet and give myself
   &lt;li&gt;
     &lt;p&gt;upsampling&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html">Face Aging Using Conditional GAN</summary></entry><entry><title type="html">Face Aging Cgan Exposition</title><link href="https://waleopakunle.com/2020/11/16/Face-Aging-cGAN-Exposition.html" rel="alternate" type="text/html" title="Face Aging Cgan Exposition" /><published>2020-11-16T00:00:00-06:00</published><updated>2020-11-16T00:00:00-06:00</updated><id>https://waleopakunle.com/2020/11/16/Face-Aging-cGAN-Exposition</id><content type="html" xml:base="https://waleopakunle.com/2020/11/16/Face-Aging-cGAN-Exposition.html">&lt;h1 id=&quot;face-aging-using-conditional-gan&quot;&gt;Face Aging Using Conditional GAN&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Face Aging Using Conditional GAN</summary></entry><entry><title type="html">Face Aging Cgan Exposition</title><link href="https://waleopakunle.com/2020/12/04/Face-Aging-cGAN-Exposition.html" rel="alternate" type="text/html" title="Face Aging Cgan Exposition" /><published>2020-12-04T00:00:00-06:00</published><updated>2020-12-04T00:00:00-06:00</updated><id>https://waleopakunle.com/2020/12/04/Face-Aging-cGAN-Exposition</id><content type="html" xml:base="https://waleopakunle.com/2020/12/04/Face-Aging-cGAN-Exposition.html">&lt;h1 id=&quot;face-aging-using-conditional-gan&quot;&gt;Face Aging Using Conditional GAN&lt;/h1&gt;
 
 &lt;p&gt;cGANs are a type of GAN that are conditioned on some extra information. We feed the extra information &lt;em&gt;y&lt;/em&gt; to the generator as an additional input layer. In vanilla GANs, there is no control over the category of the generated images. When we add a condition &lt;em&gt;y&lt;/em&gt; to the generator, we can generate images of a specific category, using &lt;em&gt;y&lt;/em&gt;, which might be any kind of data, such as a class label or integer data. Vanilla GANs can learn only one category and it is extremely difficult to architect GANs for multiple categories. A cGAN, however, can be used to generate multi-modal models with different conditions for different categories.&lt;/p&gt;
 
@@ -81,7 +127,7 @@ I will write out all my drafts in the public eye of the internet and give myself
 
 &lt;p&gt;The training objective function for cGANs can be expressed as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image1.png&quot; alt=&quot;http://localhost:5001/assets/115b5d5f-6623-46dc-bed1-e99a6aa5910c.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-12-04-Face-Aging-cGAN-Exposition/media/image1.png&quot; alt=&quot;http://localhost:5001/assets/115b5d5f-6623-46dc-bed1-e99a6aa5910c.png&quot; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;tbody&gt;
@@ -92,7 +138,7 @@ I will write out all my drafts in the public eye of the internet and give myself
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;The architecture of a cGAN for face aging is slightly more complicated. The Age-cGan consists of four networks: an encoder, the FaceNet, a generator network, and a discriminator network. With the encoder, we learn the inverse mapping of input face images and the age condition with the latent vector &lt;img src=&quot;assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image2.png&quot; alt=&quot;http://localhost:5001/assets/577645cb-a80b-4a10-98e8-5cf21f336b77.png&quot; /&gt;. FaceNet is a face recognition network that learns the difference between an input image &lt;em&gt;x&lt;/em&gt; and a reconstructed image &lt;img src=&quot;assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image3.png&quot; alt=&quot;http://localhost:5001/assets/a77a78e0-3ea2-4ce3-8f96-deca552c9b9f.png&quot; /&gt;. We have a generator network, which takes a hidden representation consisting of a face image and a condition vector and generates an image. The discriminator network is to discriminate between the real images and the fake images. &lt;/p&gt;
+&lt;p&gt;The architecture of a cGAN for face aging is slightly more complicated. The Age-cGan consists of four networks: an encoder, the FaceNet, a generator network, and a discriminator network. With the encoder, we learn the inverse mapping of input face images and the age condition with the latent vector &lt;img src=&quot;assets/img/2020-12-04-Face-Aging-cGAN-Exposition/media/image2.png&quot; alt=&quot;http://localhost:5001/assets/577645cb-a80b-4a10-98e8-5cf21f336b77.png&quot; /&gt;. FaceNet is a face recognition network that learns the difference between an input image &lt;em&gt;x&lt;/em&gt; and a reconstructed image &lt;img src=&quot;assets/img/2020-12-04-Face-Aging-cGAN-Exposition/media/image3.png&quot; alt=&quot;http://localhost:5001/assets/a77a78e0-3ea2-4ce3-8f96-deca552c9b9f.png&quot; /&gt;. We have a generator network, which takes a hidden representation consisting of a face image and a condition vector and generates an image. The discriminator network is to discriminate between the real images and the fake images. &lt;/p&gt;
 
 &lt;p&gt;The problem with cGANs is that they can’t learn the task of inverse mapping an input image &lt;em&gt;x&lt;/em&gt; with attributes &lt;em&gt;y&lt;/em&gt; to a latent vector &lt;em&gt;z.&lt;/em&gt; The solution to this problem is to use an encoder network. We can train an encoder network to approximate the inverse mapping of the input images &lt;em&gt;x.&lt;/em&gt;&lt;/p&gt;
 
@@ -146,7 +192,7 @@ I will write out all my drafts in the public eye of the internet and give myself
 
 &lt;p&gt;During latent vector optimization, we optimize the encoder network and the generator network simultaneously. The equation we use for latent vector optimization is as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;assets/img/2020-11-16-Face-Aging-cGAN-Exposition/media/image4.png&quot; alt=&quot;http://localhost:5001/assets/98bda784-ced5-4608-8c1d-38477d40cb8f.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;assets/img/2020-12-04-Face-Aging-cGAN-Exposition/media/image4.png&quot; alt=&quot;http://localhost:5001/assets/98bda784-ced5-4608-8c1d-38477d40cb8f.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;FR is the face recognition network. This equation indicates that the Euclidean distance between the real image and the reconstructed images should be minimal. In this stage, we try to minimize the distance to maximize identity preservation.&lt;/p&gt;</content><author><name></name></author><summary type="html">Face Aging Using Conditional GAN</summary></entry><entry><title type="html">June Papers Digest</title><link href="https://waleopakunle.com/papers/2020/06/21/june-papers-digest" rel="alternate" type="text/html" title="June Papers Digest" /><published>2020-06-21T00:00:00-05:00</published><updated>2020-06-21T00:00:00-05:00</updated><id>https://waleopakunle.com/papers/2020/06/21/june-papers-digest</id><content type="html" xml:base="https://waleopakunle.com/papers/2020/06/21/june-papers-digest">&lt;h1 id=&quot;latest-in-ai-research---june-2020&quot;&gt;Latest in AI Research - June 2020&lt;/h1&gt;
 
@@ -1413,7 +1459,7 @@ CVPR 2020 will take place virtually from June 14 to June 19th.&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.kaggle.com/hsankesara/flickr-image-dataset&quot; target=&quot;_blank&quot;&gt;Flickr 30k Dataset&lt;/a&gt;: The Flickr 30k dataset has over 30,000 images, and each image is labeled with different captions. This dataset is used to build an image caption generator. And this dataset is an upgraded version of Flickr 8k used to build more accurate models.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Possible project idea&lt;/strong&gt;:  You can train a deep learning model that is capable of analysing and extracting features from the image and generate as english sentence that describes the image. Next time when your friend send you an image and goes, “Caption this”, you can ask your model what it thinks and get back to your friend with the machine caption.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Possible project idea&lt;/strong&gt;:  You can train a deep learning model that is capable of analysing and extracting features from the image and generate as English sentence that describes the image. Next time when your friend send you an image and goes, “Caption this”, you can ask your model what it thinks and get back to your friend with the machine caption.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/katanaml/katana-assistant/blob/master/mlbackend/intents.json&quot; target=&quot;_blank&quot;&gt;Chatbot Intents Dataset&lt;/a&gt;
@@ -1487,7 +1533,7 @@ For an example of how to use this, checkout &lt;a href=&quot;https://github.com/
     &lt;/ul&gt;
 
     &lt;blockquote&gt;
-      &lt;p&gt;” In simulation, when a trajectory of a self-driving car and other agents (e.g. other cars, cyclists, and pedestrians) changes, the system generates realistic visual sensor data that helps us model the scene in the updated environment … “   - A Waymo spokesperson.&lt;/p&gt;
+      &lt;p&gt;” In the simulation, when a trajectory of a self-driving car and other agents (e.g. other cars, cyclists, and pedestrians) changes, the system generates realistic visual sensor data that helps us model the scene in the updated environment … “   - A Waymo spokesperson.&lt;/p&gt;
     &lt;/blockquote&gt;
 
     &lt;ul&gt;
