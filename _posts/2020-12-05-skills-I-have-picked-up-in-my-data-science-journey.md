@@ -56,7 +56,7 @@ In my first year as a practicing data scientist, I had dreams that once I amasse
 
 Well, the reality in the field is that you get rewarded for the kind/quality of the value you can provide to whoever has the resources to compensate you. Furthermore, to provide value, you must cater to the needs of whoever is compensating. What do I mean? Well, I am glad that you asked. 
 
-You see, most organizations, except maybe non-profits, go into business to make a profit. To do that there are several hurdles and difficulties that they must surmount so that they can break even or even stay in business. It is very unlikely that a Fintech (for example) is gonna throw funds at your feet because you claim you know how to make a picture of President Buhari read a speech written by the outgoing President Trump using a [face-swapping deepfake](https://github.com/shaoanlu/faceswap-GAN){:target="_blank"}. 
+You see, most organizations, except maybe non-profits, go into business to make a profit. To do that there are several hurdles and difficulties that they must surmount so that they can break even or even stay in business. It is very unlikely that a Fintech (for example) is gonna throw funds at your feet because you claim you know how to make a picture of President Buhari read a speech written by the outgoing President Trump using a [face-swapping deepfake](https://github.com/shaoanlu/faceswap-GAN){:target="_blank"}<sup>1</sup>. 
 
 Unless the company is in the entertainment industry and this particular use case correlates with their business goals, they are unlikely to throw money at you for your knowledge. The formula here is to find the company's pain points, find a use case they can leverage to overcome their difficulty, and then implement a version of it. In most cases, whatever you develop doesn't even need to be perfect or at it's most "cost-effective" phase. As long as it works and the value to the business is evident, you most likely have a winner, depending on what your intentions are.
 
@@ -67,22 +67,34 @@ Time and energy are quite limited. Unless you're more interested in theoretical 
 
 ## Manage expectations
 
-While thinking about this, I thought this may be limited to the tech ecosystem I currently find myself in. However, I concluded that it is a general lesson albeit the spectrum of impact may vary based on the tech ecosystem the reader is in.
+While writing this uo, I thought this particular point may be limited to the tech ecosystem I currently find myself in. However, I concluded that it is a general lesson albeit the spectrum of impact may vary based on the tech ecosystem the reader is in.
 
 You see, the technology industry in Nigeria is several steps behind what is obtainable in many other parts of the world as a direct consequence of the acute drought of investment in the infrastructure and policies needed to make technologies like AI to thrive, but more on that some other time. Due to these hurdles though, the country is severely lacking in terms of the adoption of artificial intelligence. Don't get me wrong. The hype around Artificial Intelligence is here. It's everywhere. But the pool of companies that know what to do with the technology and actually groom dedicated teams to do so leaves a lot to be desired. This could lead to a scenario where you are hired as an Data Scientist, only to find yourself working as a regular backend developer with an occasional data science project if you're lucky.
 
 In the same vein, there is a lot of hype around what AI can currently do. This is a global phenomenon. While AI research has advanced incredibly in the past demi-decade and there are a lot of incredible tasks which AI can solve with super human accuracy, the capabilities of most "state of the art models" are not at the level where they can be generalized for use in plug-and-play situations in business settings. They usually require varying levels of customization to specific problems and building maintainable software solutions around them. While machine learning maturity in enterprise is gradually increasing, this is still not a trivial task in 2020.
 
-In a survey conducted by [International Data Corporation (IDC)](https://www.idc.com/getdoc.jsp?containerId=prUS45344519&utm_medium=rss_feed&utm_source=Alert&utm_campaign=rss_syndication){:target="_blank"} in 2019, which consisted of 2,473 business decison makers, they found that of the organizations already using AI, only 25% have developed an "enterprise-wide" AI strategy, and it found that among those in the process of deploying AI, a substantial number of projects are doomed to fail. Respondents to the survey identified skills shortages and unrealistic expectations as the top two reasons for failure, in fact, with a full quarter reporting up to 50% failure rate. Other culprits impeding AI adoption internally in the firms included cost of building and maintaining AI solutions, lack of qualified workers, and biased data. 
+In a survey conducted by [International Data Corporation (IDC)](https://www.idc.com/getdoc.jsp?containerId=prUS45344519&utm_medium=rss_feed&utm_source=Alert&utm_campaign=rss_syndication){:target="_blank"}<sup>2</sup> in 2019, which consisted of 2,473 business decison makers, they found that of the organizations already using AI, only 25% have developed an "enterprise-wide" AI strategy, and it found that among those in the process of deploying AI, a substantial number of projects are doomed to fail. Respondents to the survey identified skills shortages and unrealistic expectations as the top two reasons for failure, in fact, with a full quarter reporting up to 50% failure rate. Other culprits impeding AI adoption internally in the firms included cost of building and maintaining AI solutions, lack of qualified workers, and biased data. 
 
-A more recent survey by [Algorithmia](https://algorithmia.com/state-of-ml){:target="_blank"} (2020) shows that while adoption of AI has definitely soared this year, very little has changed in the success rate ratio. 
+A more recent survey by [Algorithmia](https://algorithmia.com/state-of-ml){:target="_blank"} (2020)<sup>3</sup> shows that while adoption of AI has definitely soared this year, very little has changed in the success rate ratio. 
 
-Don't let this discourage you by any means though. There are a lot of quick wins out there that hinge on the right application of artificial intelligence and lots of testimonies to back this up too. My message here is that it is not easy or a straightforward process as of 2020.
+I am not trying to paint a picture of doom for the AI industry, but to draw attention to the reality one has to graple with, especially in these parts of the world. Despite all this, I must say that there are a lot of quick wins out there that hinge on the right application of artificial intelligence and lots of testimonies to back this up too. My message here is that it is important to manage expectatons so as not to be disappointed. Furthermore, while knowing that it may not be an easy or a straightforward process as of 2020, one should undertake it anyway.
 
-{% include info.html text=" 'We do not do things because they are easy, but because they are hard' -John F. Kennedy, 1962" %}
+> {% include info.html text=" 'We do not do things because they are easy, but because they are hard.' -John F. Kennedy, 1962" %}
 
 
 ## Machine Learning is a tool
+
+The fact is that machine learning algorithms are but a means to an end. I have began to look at machine learning alorithms as a variety of mathematical concepts that have been condensed into reusable software. This may seem obvious at first and maybe I did not realize this early on because I do not have a software background, but this shift in mindset was very important in my growth as I will explain shortly. 
+
+Machine learning algorithms or implementatins on their own are actually useless. They gain their strength when they are encapsulated in a bigger system that includes other software and humans designed to achieve a common goal. The effectiveness of Machine learning is drastically reduced in any situation where either of these two (humans or supporting software) are absent. Machine learning essentially makes it easier to accomplish a goal that humans and traditional software <sup>i</sup> systems would generally expend more energy to achieve, but it can only achieve this if it has a wide variety of data from humans and a reliable pipeline to keep the data coming.
+
+This shift in mentality was important for me because I had been very adamant on focusing exclusively on machine learning research. I could not be bothered to take up any tutorials on any other form of software development. I was content poring through the latest research in artificial intelligence and implementing them in a colab notebook. At most, I would expose the completed model as an endpoint and move in to the next exciting project that caught my fancy.
+
+Immediately this epiphany hit me, I took up programming in Flutter, expanded my Python curiosity from just Pytorch and Tensorflow to Django and Fast API, and invested my time heavily in cloud technology to mention but a few.
+
+
+
+*i. Traditional software is used loosely here to mean software that does not have AI capabilities.*
 
 ## Documentation is vital
 
@@ -113,3 +125,8 @@ Get over it
 
 
 ## Give back to society
+
+
+1. [Face-Swap GAN](https://github.com/shaoanlu/faceswap-GAN){:target="_blank"}
+1. [International Data Corporation (IDC) report](https://www.idc.com/getdoc.jsp?containerId=prUS45344519&utm_medium=rss_feed&utm_source=Alert&utm_campaign=rss_syndication){:target="_blank"}
+1. [Algorithmia State of Machine Learning report](https://algorithmia.com/state-of-ml){:target="_blank"}
