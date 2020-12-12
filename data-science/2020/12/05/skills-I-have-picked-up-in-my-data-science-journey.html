@@ -23,9 +23,8 @@
   <li><a href="#learn-how-to-learn">Learn how to learn.</a></li>
   <li><a href="#prioritizing-interests">Prioritizing interests.</a></li>
   <li><a href="#put-your-work-out-there">Put your work out there.</a></li>
-  <li><a href="#getting-over-imposter-syndrome">Getting over imposter syndrome</a></li>
-  <li><a href="#pick-up-other-software-and-soft-skills">Pick up other software and soft skills</a></li>
-  <li><a href="#get-certified-get-seen">Get certified, get seen.</a></li>
+  <li><a href="#getting-over-imposter-syndrome">Getting over imposter syndrome</a>
+s 1. <a href="#get-certified-get-seen">Get certified, get seen.</a></li>
   <li><a href="#read-everyday">Read and Practice. Every day.</a></li>
   <li><a href="#give-back-to-society">Give back to society.</a></li>
 </ol>
@@ -77,42 +76,73 @@
 
 <p>I am not trying to paint a picture of doom for the AI industry, but to draw attention to the reality one has to graple with, especially in these parts of the world. Despite all this, I must say that there are a lot of quick wins out there that hinge on the right application of artificial intelligence and lots of testimonies to back this up too. My message here is that it is important to manage expectatons so as not to be disappointed. Furthermore, while knowing that it may not be an easy or a straightforward process as of 2020, one should undertake it anyway.</p>
 
-<blockquote>
-  <div class="Toast">
+<div class="Toast">
    <span class="Toast-icon"><svg class="octicon octicon-info octicon octicon-info octicon octicon-info" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 01-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 01-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>
-   <span class="Toast-content"> 'We do not do things because they are easy, but because they are hard.' -John F. Kennedy, 1962</span>
+   <span class="Toast-content"> 'We do not do things because they are easy, but because they are hard.' 
+ -John F. Kennedy, 1962</span>
 </div>
-</blockquote>
-<p>&lt;/div&gt;</p>
 
 <h2 id="machine-learning-is-a-tool">Machine Learning is a tool</h2>
 
-<p>The fact is that machine learning algorithms are but a means to an end. I have began to look at machine learning alorithms as a variety of mathematical concepts that have been condensed into reusable software. This may seem obvious at first and maybe I did not realize this early on because I do not have a software background, but this shift in mindset was very important in my growth as I will explain shortly.</p>
+<p>The fact is that machine learning algorithms are but a means to an end. I have began to look at machine learning alorithms as a variety of mathematical concepts that have been condensed into reusable software in larger systems than themslves. This may seem obvious at first and maybe I did not realize this early on because I do not have a software background, but this shift in mindset was very important in my growth as I will explain shortly.</p>
 
 <p>Machine learning algorithms or implementatins on their own are actually useless. They gain their strength when they are encapsulated in a bigger system that includes other software and humans designed to achieve a common goal. The effectiveness of Machine learning is drastically reduced in any situation where either of these two (humans or supporting software) are absent. Machine learning essentially makes it easier to accomplish a goal that humans and traditional software <sup>i</sup> systems would generally expend more energy to achieve, but it can only achieve this if it has a wide variety of data from humans and a reliable pipeline to keep the data coming.</p>
 
 <p>This shift in mentality was important for me because I had been very adamant on focusing exclusively on machine learning research. I could not be bothered to take up any tutorials on any other form of software development. I was content poring through the latest research in artificial intelligence and implementing them in a colab notebook. At most, I would expose the completed model as an endpoint and move in to the next exciting project that caught my fancy.</p>
 
-<p>Immediately this epiphany hit me, I took up programming in Flutter, expanded my Python curiosity from just Pytorch and Tensorflow to Django and Fast API, and invested my time heavily in cloud technology to mention but a few.</p>
+<p>Immediately this epiphany hit me, I took up programming in Flutter, expanded my Python curiosity from just Pytorch and Tensorflow to Django and Fast API, and invested my time heavily in cloud technology to mention but a few. This was difficult for me because I really enjiyed catching up on journals, but embarking on these learning paths seemed to be taking a whole lot of time. However, the rewards have been absolutely rewarding.</p>
+
+<p>So there you have it for free – Machine learning is but a very important piece of the entire jigsaw puzzle of whatever software you’re building.</p>
 
 <p><em>i. Traditional software is used loosely here to mean software that does not have AI capabilities.</em></p>
 
 <h2 id="documentation-is-vital">Documentation is vital</h2>
 
+<p>You know how when you hit a very massive bug in the course of development and it takes you several days before you eventually solve it? Then after you solve it, you proceed with the development as if nothing happened? Yeah, if I were you I’d never do that again.</p>
+
+<p>Unfortunately, I learnt this lesson the hard way. Let me tell you the story of the bug that changed my coding life. While working on a side project that had caught my fancy - Face aging GANs. I had the misfortune to read a tutorial blogpost from a young lad whose name shall not be named (yeah, thanks a lot for nothing Derek). It was around the time when Tensrflow 2.0 came out and while a lot of the methods were backward compatible, there are quite a few that just aren’t. I had started the project with a tf version of 1.15, but this tutorial just had to use the latest version of tensorflow. Due to limited choice, I tried to append a lot of his code, hoping and praying that it magically worked. Boy was I wrong. This led me on an excruciating two-day ordeal where I scoured the length and breadth of the internet trying to find the fix. To show how desperate  was, I found myself on the fourth page of Google’s query page more than once.  No kidding.</p>
+
+<p>Anyway, I finally figured out what the problem was - some modules in tensorflow 2.0 are incompatible with previous versions of tensorflow, and in order to make it compatible, you need to add a nifty import to make it backward compatible. I fixed the issue and moved on with my life. Everythig seemed rosy until I ran into the same issue some weeks later and wasted several productive hours trying to figure out the same issue. What made it so infuriating was that I knew I had faced the problem before, but I couldn’t for the life of me remember the exact statement I had used in the import statement.</p>
+
+<p>That very day, I decided to always include an “error_log.md” file in all future projects. Every time I find a solution to an error, I make sure to paste the link to the solution there alng with a small comment on what the problem was. This method has been a life saver in various unrelated projets.</p>
+
 <h2 id="polymath-or-specialist">Polymath or Specialist</h2>
-<p>You most likely need to be a generalist. This is a harsh reality.</p>
+<p>There is no easy way to put this. As a data scientist, you will most likely need to be a generalist. This is a harsh reality. Hold on a minute while I explain.</p>
+
+<p>First of all, data Science applications cut across almost every professional field I know about. From Economics to Insurance, to Oil and Gas, to Education, to Philosophy, Language, Entertainment… the list goes on and on. To further confound this, some of the data generated in these fields are not mutually exclusive. By this I mean that the data generated in one field can influence the data generated in another field. As an example, imagine if your team is required to develop a prdeictive model to determine how the crop yield of Maize in Damaturu will impact Nigeria’s GDP in 2021. It may somehow become your reponsibiity as a data scientist to analyze such inter-related data of Agriculture and Economics. Granted, either yourself or a member of your team may have background knowledge of one or both of the fields. However, in my experience that is seldom the case. Usually the only ways for you to effectively carry out your duties are:</p>
+
+<ol>
+  <li>Hire professionals who completely understand the related fields. Using our previous example - an expert of the agriculture landscape in Nigeria and a solid Economist. Without a doubt, this method is the most expensive in the short term, but could be the best method (in my opinion).</li>
+  <li>Some member of the team takes a crash course on the related field to understand the affected landscapes.
+While this may be the cheaper alternative in the short term, it coud have disastrous effects on the kind of predictive model the team builds, if for example the wrong metric is used as a target variable for prediction.
+In my experience, this is the method that is most explored. In that case, you could find yourself poring through your long-forgotten economics texts.</li>
+</ol>
+
+<p>As a second example, imagine a situation where a client needs a data science related task carried out but requires that the finished result be presented on a mobile application. Again, you or a member of your team may find themselves picking up a skill totally unrelated to data science in order to save the day for the organization.</p>
+
+<p>These situations are not ideal, for sure. But the reality is that we do not live in an ideal world. Companies (at least in Nigeria) are not overly enthusiastic about hiring new hands, especially with the worsening economic climes.</p>
+
+<p>So, if you have extra time on your hands, I would recommend that you consider expanding your portfolio.</p>
 
 <h2 id="learn-how-to-learn">Learn how to learn.</h2>
 
+<p>I think it is important ton find what learning pattern works for you, and be dilligent in sticking to that pattern. This will keep the speed at which you absorb information steady and even speed it up in some cases. 
+When I first started out, my major means of learning was by consuming hours upon hours of tutorial videos. I would browse through Andrew Ng’s courses in days, pick up Udacity courses and follow through to the end. This worked for my friends and I for a while. At some point, I decided to try out reading a book that had been recommended on Twitter - Automating the boring stuff with Python and I became hooked on books. I managed to complete the text in 3 weeks and I discoverd that I retained the information a lot longer and had a more rounded understanding of the concepts than I would have had hah I watched it as a presentation.</p>
+
+<p>Going forward, my first go-to method of learning has been books, documentation, tutorials. Where these are unavailable, and only then, do I succumb to watching videos. It’s just not the same anymore.</p>
+
+<p>You owe it to yourself to find the method that works for you and modify it as you go.</p>
 <h2 id="prioritizing-interests">Prioritizing interests</h2>
+
+<p>There are so many interesting things happening in the AI space all the time. It is easy to get drawn into a differnet from the one you started at the beginning of the week. I mean, there are sexy models being churned out all the time. Trust me, it is hard to say NO to some models some times. You just have to “quickly” try it out and use it in a project of your own.</p>
+
+<p>The problem with not explicitly saying NO is that one can get ovrwhelmed very easily. Before you know it, you’re juggling 12 unfinished projects and haven’t slept in 3 days.</p>
 
 <h2 id="put-your-work-out-there">Put your work out there</h2>
 
 <h2 id="getting-over-imposter-syndrome">Getting over imposter syndrome</h2>
 
 <p>Get over it</p>
-
-<h2 id="pick-up-other-software-and-soft-skills">Pick up other software and soft skills</h2>
 
 <h2 id="get-certified-get-seen">Get certified, get seen</h2>
 
